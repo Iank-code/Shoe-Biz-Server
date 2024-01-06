@@ -29,9 +29,9 @@ const runServer = () => {
   app.use(express.json());
   app.use(morganMiddleware);
   // server.applyMiddleware({app});
-  const newApolloServer = new ApolloServer({ resolvers, typeDefs })
+  const newApolloServer = new ApolloServer({ resolvers, typeDefs });
 
-    return { newApolloServer };
+  return { newApolloServer };
 };
 
 export { runServer };
