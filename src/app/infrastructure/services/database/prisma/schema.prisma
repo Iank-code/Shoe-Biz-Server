@@ -1,8 +1,21 @@
-generator Client{
-    provider = "prisma-client-js"
+generator client {
+  provider = "prisma-client-js"
 }
 
-datasource db{
-    provider = "postgresql"
-    url = "postgres://ian:mose@123@localhost/ian"
+datasource db {
+  provider = "postgresql"
+  url      = "postgres://ian:mose@123@localhost/shoebiz"
+}
+
+model Customer{
+  id                        String    @id @default(uuid())
+  username                  String
+  email                     String
+  profileImage              String
+  phoneNumber               String
+  password                  String
+  resetToken                String
+  confirmedEmail            Boolean
+  created_at                DateTime  @default(now())
+  updated_at                DateTime? @updatedAt
 }

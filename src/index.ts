@@ -10,7 +10,7 @@ export const main = () => {
   const { newApolloServer } = runServer();
 
   newApolloServer.listen({ port }, () =>
-    console.log(`Server ready at: http://localhost:${port}`)
+    Logger.http(`Server ready at: http://localhost:${port}`)
   );
 };
 
