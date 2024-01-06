@@ -1,0 +1,8 @@
+generator Client{
+    provider = "prisma-client-js"
+}
+
+datasource db{
+    provider = "postgresql"
+    url = "postgres://ian:mose@123@localhost/ian"
+}
