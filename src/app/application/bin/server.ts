@@ -1,37 +1,26 @@
 import express, { Application } from "express";
 import cors from "cors";
-import { ApolloServer } from "apollo-server";
-// import { PrismaClient } from "@prisma/client";
 import morganMiddleware from "../middleware/loggers/morgan_middleware";
-import { gql } from "apollo-server";
-
-const typeDefs = gql`
-  type Query {
-    hello: String
-  }
-`;
-
-const resolvers = {
-  Query: {
-    hello: () => "Hello, World!",
-  },
-};
-
-// const prisma = new PrismaClient();
-
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-});
-
+import { createCorsOptions } from "../utils/helpers";
+import AppRouter from "../../presentation/rest/routes";
+const path = require("path");
 const runServer = () => {
   const app: Application = express();
-  app.use(express.json());
+
+  // Setting up cors
+  const corsOptions = createCorsOptions();
+  app.use(cors(corsOptions));
+
+  //   Logging
   app.use(morganMiddleware);
-  // server.applyMiddleware({app});
-  const newApolloServer = new ApolloServer({ resolvers, typeDefs });
+  //   const staticPath = path.join(__dirname, "../../../../music");
+  //   app.use("/api/v1/static/music", express.static(staticPath));
+  //   express to use json parser
+  app.use(express.json());
 
-  return { newApolloServer };
+  // setup routes
+  app.use("/api/v1/", new AppRouter().router);
+
+  return { app };
 };
-
 export { runServer };

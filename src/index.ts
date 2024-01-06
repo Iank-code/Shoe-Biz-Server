@@ -7,10 +7,11 @@ export const main = () => {
   const port = process.env.PORT;
   const host = process.env.SERVER_URL;
 
-  const { newApolloServer } = runServer();
+  const { app } = runServer();
 
-  newApolloServer.listen({ port }, () => {
-    Logger.http(`Server running at ${host}:${port}`);
+  app.listen(port, () => {
+    Logger.debug("Server started");
+    Logger.info(`Running on 👉🏼 ${host}:${port} `);
   });
 };
 
