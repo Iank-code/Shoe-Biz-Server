@@ -1,11 +1,13 @@
+import CustomerRepository from "../../infrastructure/repository/customer.repository";
+
 export default class CustomerUsecase {
-  //   repository;
+  repository;
 
   constructor() {
-    // this.repository = new AdminRepository();
+    this.repository = new CustomerRepository();
   }
   async registerCustomer(payload: any) {
-    // return await this.repository.registerAdmin(payload);
+    return await this.repository.registerCustomer(payload);
   }
 
   async loginAdmin(payload: any) {
