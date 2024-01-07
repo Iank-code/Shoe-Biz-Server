@@ -3,7 +3,7 @@ import { Router } from "express";
 // import ApplicationModule from "./modules/application.module";
 // import GetInTouchModule from "./modules/GetInTouch.module";
 // import ContactModule from "./modules/contact.module";
-// import AdminModule from "./modules/admin.module";
+import customerModule from "./modules/customer.module";
 // import MpesaModule from "./modules/mpesa.module";
 
 export default class AppRouter {
@@ -16,7 +16,7 @@ export default class AppRouter {
 
   private config() {
     // this.router.use("/course", new CourseModule().router);
-    // this.router.use("/admin", new AdminModule().router);
+    this.router.use("/customer", new customerModule().router);
     // this.router.use("/mpesa", new MpesaModule().router);
     // this.router.use("/application", new ApplicationModule().router);
     // this.router.use("/contact", new ContactModule().router);

@@ -108,3 +108,13 @@
 2024-01-07 20:36:03:363 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
 2024-01-07 20:36:07:367 [37mdebug[39m: [37mServer started[39m
 2024-01-07 20:36:07:367 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:38:02:382 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:38:02:382 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:38:36:3836 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:38:36:3836 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:38:42:3842 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:38:42:3842 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:39:05:395 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:39:05:395 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:40:27:4027 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 56 - 18.565 ms[39m
+[35m[39m

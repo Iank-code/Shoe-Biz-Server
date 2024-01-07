@@ -1,5 +1,10 @@
 export default class CustomerRepository {
-    constructor(){}
+  constructor() {}
 
-    async registerCustomer(payload: any){}
+  async registerCustomer(payload: any) {
+    return {
+      status: 200,
+      message: "Route registered successfully",
+    };
+  }
 }
