@@ -12,7 +12,7 @@
     "start": "node compiled/index.js",
     "build": "npm run prisma && tsc",
     "prisma": "npx prisma db push && npx prisma generate",
-    "prisma:reset": "npx prisma migrate reset",
+    "prisma:reset": "npx prisma migrate reset --schema=./src/app/infrastructure/services/database/prisma/schema.prisma",
     "prisma:seed": "npx prisma db seed"
   },
   "keywords": [
@@ -22,8 +22,7 @@
     "stripe",
     "mpesa",
     "node",
-    "express",
-    "apollo-graphql"
+    "express"
   ],
   "author": "Ian Kamau",
   "license": "ISC",

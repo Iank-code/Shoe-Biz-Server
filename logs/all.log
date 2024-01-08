@@ -118,3 +118,184 @@
 2024-01-07 20:39:05:395 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
 2024-01-07 20:40:27:4027 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 56 - 18.565 ms[39m
 [35m[39m
+2024-01-07 20:41:35:4135 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:41:35:4135 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:41:43:4143 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:41:43:4143 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:42:15:4215 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:42:15:4215 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:42:24:4224 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:42:24:4224 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:42:34:4234 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:42:34:4234 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:42:44:4244 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:42:44:4244 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:43:12:4312 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:43:12:4312 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:48:02:482 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:48:02:482 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:48:08:488 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:48:08:488 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:48:21:4821 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:48:21:4821 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:48:33:4833 [31merror[39m: [31mdata and salt arguments required[39m
+2024-01-07 20:48:33:4833 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 19.081 ms[39m
+[35m[39m
+2024-01-07 20:49:50:4950 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create({[39m
+[31m       data: {[39m
+[31m         email: "test@gmail.com",[39m
+[31m         password: "$2b$10$CwhcDEyQ/ARbX9YuFNpYS.4R5.EBJehgCKwRjgOW8URd4i2TQZq0C",[39m
+[31m     +   name: String[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument `name` is missing.[39m
+2024-01-07 20:49:50:4950 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 119.874 ms[39m
+[35m[39m
+2024-01-07 20:50:29:5029 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:50:29:5029 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:50:41:5041 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:50:41:5041 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:51:03:513 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:51:03:513 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:51:09:519 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 92.091 ms[39m
+[35m[39m
+2024-01-07 20:51:26:5126 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:51:26:5126 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:51:31:5131 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create({[39m
+[31m       data: {[39m
+[31m         email: "test@gmail.com",[39m
+[31m         password: "$2b$10$wVnLrJSZ047OE8IcnDfLJ..l5edc.XW4LX0IthMS3uBEn7xxGYrN.",[39m
+[31m     +   name: String[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument `name` is missing.[39m
+2024-01-07 20:51:31:5131 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 148.099 ms[39m
+[35m[39m
+2024-01-07 20:51:44:5144 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:51:44:5144 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:51:47:5147 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 405 - 146.841 ms[39m
+[35m[39m
+2024-01-07 20:52:06:526 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:52:06:526 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:53:05:535 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:53:05:535 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:56:43:5643 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:56:43:5643 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:56:52:5652 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create({[39m
+[31m       data: {[39m
+[31m         email: "test@gmail.com",[39m
+[31m         password: "$2b$10$EikG0xGTe1ZRTWIIpOxInexN0mGAaGOUTgyTwSCxrzoShQVuVozp2",[39m
+[31m     +   username: String[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument `username` is missing.[39m
+2024-01-07 20:56:52:5652 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 158.097 ms[39m
+[35m[39m
+2024-01-07 20:57:10:5710 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create([39m
+[31mThe column `username` does not exist in the current database.[39m
+2024-01-07 20:57:10:5710 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 87.163 ms[39m
+[35m[39m
+2024-01-07 20:57:15:5715 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create([39m
+[31mThe column `username` does not exist in the current database.[39m
+2024-01-07 20:57:15:5715 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 82.138 ms[39m
+[35m[39m
+2024-01-07 20:57:16:5716 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create([39m
+[31mThe column `username` does not exist in the current database.[39m
+2024-01-07 20:57:16:5716 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 82.200 ms[39m
+[35m[39m
+2024-01-07 20:58:26:5826 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:58:26:5826 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:58:29:5829 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 83 - 142.942 ms[39m
+[35m[39m
+2024-01-07 20:59:38:5938 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:59:38:5938 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 20:59:47:5947 [37mdebug[39m: [37mServer started[39m
+2024-01-07 20:59:47:5947 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-07 22:13:35:1335 [37mdebug[39m: [37mServer started[39m
+2024-01-07 22:13:35:1335 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 05:55:22:5522 [37mdebug[39m: [37mServer started[39m
+2024-01-08 05:55:22:5522 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:02:54:254 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:02:54:254 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:03:20:320 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:03:20:320 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:03:29:329 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:03:29:329 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:03:35:335 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:03:35:335 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:03:41:341 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:03:41:341 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:03:50:350 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:03:50:350 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:04:29:429 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:04:29:429 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:04:43:443 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:04:43:443 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:04:48:448 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:04:48:448 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:04:52:452 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:04:52:452 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:06:36:636 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:06:36:636 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:10:45:1045 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:10:45:1045 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:17:12:1712 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
+2024-01-08 06:17:12:1712 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 185.642 ms[39m
+[35m[39m
+2024-01-08 06:18:06:186 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:18:06:186 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:18:13:1813 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
+2024-01-08 06:18:13:1813 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 142.654 ms[39m
+[35m[39m
+2024-01-08 06:20:27:2027 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:20:27:2027 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:21:01:211 [37mdebug[39m: [37mServer started[39m
+2024-01-08 06:21:01:211 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:8000 [39m
+2024-01-08 06:21:43:2143 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-08 06:21:43:2143 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 123 - 3393.523 ms[39m
+[35m[39m
