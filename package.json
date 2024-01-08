@@ -22,8 +22,7 @@
     "stripe",
     "mpesa",
     "node",
-    "express",
-    "apollo-graphql"
+    "express"
   ],
   "author": "Ian Kamau",
   "license": "ISC",

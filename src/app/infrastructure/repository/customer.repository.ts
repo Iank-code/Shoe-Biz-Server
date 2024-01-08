@@ -31,9 +31,31 @@ export default class CustomerRepository {
           password: hashed,
         },
       });
+
+      const filePath = path.join(
+        __dirname,
+        "../../../app/presentation/template/email/customer/registration.ejs"
+      );
+
+      let html = await ejs.renderFile(filePath, {
+        email: customer.email,
+        name: customer.name,
+      });
+
+      const info = await transporter.sendMail({
+        from: process.env.GMAIL_NAME,
+        to: customer.email,
+        subject: `Confirm your email`,
+        text: `Hello ${customer.name}`,
+        html: html,
+      });
+
+      Logger.info("Message sent: %s", info);
+
       return {
         status: 200,
-        message: "Account has been created successfully. Login to proceed.",
+        message:
+          "Account has been created successfully. A verification email has been sent to your email address.",
       };
     } catch (error) {
       Logger.error(error);
