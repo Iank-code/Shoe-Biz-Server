@@ -34,7 +34,7 @@ export default class CustomerRepository {
 
       const filePath = path.join(
         __dirname,
-        "../../../app/presentation/template/email/customer/registration.ejs"
+        "../../../app/presentation/templates/email/customer/registration.ejs"
       );
 
       let html = await ejs.renderFile(filePath, {

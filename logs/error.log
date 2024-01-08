@@ -74,3 +74,5 @@
 [31m  26 [39m
 [31m→ 27 const customer = await db.customer.create([39m
 [31mThe column `username` does not exist in the current database.[39m
+2024-01-08 06:17:12:1712 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
+2024-01-08 06:18:13:1813 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
