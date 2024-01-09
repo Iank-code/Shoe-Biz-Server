@@ -1,5 +1,5 @@
 import { Router } from "express";
-// import CourseModule from "./modules/course.module";
+import ProductModule from "./modules/product.module";
 // import ApplicationModule from "./modules/application.module";
 // import GetInTouchModule from "./modules/GetInTouch.module";
 // import ContactModule from "./modules/contact.module";
@@ -15,7 +15,7 @@ export default class AppRouter {
   }
 
   private config() {
-    // this.router.use("/course", new CourseModule().router);
+    this.router.use("/product", new ProductModule().router);
     this.router.use("/customer", new customerModule().router);
     // this.router.use("/mpesa", new MpesaModule().router);
     // this.router.use("/application", new ApplicationModule().router);
