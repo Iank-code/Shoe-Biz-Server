@@ -6,6 +6,10 @@
   "engines": {
     "node": ">=16.13.0"
   },
+  "prisma": {
+    "schema": "src/app/infrastructure/services/database/prisma/schema.prisma",
+    "seed": "ts-node src/app/infrastructure/services/database/prisma/seed.ts"
+  },
   "scripts": {
     "dev": "nodemon src/index.ts",
     "test": "nyc mocha --require ts-node/register src/test/**/*.ts",
