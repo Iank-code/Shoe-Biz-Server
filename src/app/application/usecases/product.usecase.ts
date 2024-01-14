@@ -11,7 +11,10 @@ export default class ProductUsecase {
     return await this.repository.getAll();
   }
 
-  async getById(id:string){
+  async getById(id: string) {
     return await this.repository.getById(id);
   }
+  async getByTag(tag: any){
+    return await this.repository.getByTag(tag);
+  };
 }

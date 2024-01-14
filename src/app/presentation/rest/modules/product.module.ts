@@ -13,6 +13,7 @@ export default class ProductModule {
 
   private config() {
     this.router.get("/getall", this.getAll);
+    this.router.get("/shop", this.getByTag);
     this.router.get("/product/:id", this.getById);
   }
   private async getAll(req: Request, res: Response) {
@@ -20,8 +21,15 @@ export default class ProductModule {
     return res.send(response);
   }
   private async getById(req: Request, res: Response) {
-    const {id} = req.params
+    const { id } = req.params;
     const response = await usecase.getById(id);
+    return res.send(response);
+  }
+
+  private async getByTag(req: Request, res: Response) {
+    const { tag } = req.query;
+    console.log(tag);
+    const response = await usecase.getByTag(tag);
     return res.send(response);
   }
 }
