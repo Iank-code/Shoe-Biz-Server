@@ -1248,3 +1248,51 @@
 [35m[39m
 2024-01-14 16:59:46:5946 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 11.952 ms[39m
 [35m[39m
+2024-01-14 22:11:58:1158 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 45.949 ms[39m
+[35m[39m
+2024-01-14 22:11:58:1158 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 13.836 ms[39m
+[35m[39m
+2024-01-14 22:12:18:1218 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 4.326 ms[39m
+[35m[39m
+2024-01-14 22:12:18:1218 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 10.487 ms[39m
+[35m[39m
+2024-01-14 22:12:57:1257 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 6.190 ms[39m
+[35m[39m
+2024-01-14 22:12:57:1257 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 5.340 ms[39m
+[35m[39m
+2024-01-14 22:13:37:1337 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 6.464 ms[39m
+[35m[39m
+2024-01-14 22:13:37:1337 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 3.523 ms[39m
+[35m[39m
+2024-01-14 22:13:42:1342 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 200 796 - 5.240 ms[39m
+[35m[39m
+2024-01-14 22:13:42:1342 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 3.114 ms[39m
+[35m[39m
+2024-01-14 22:13:47:1347 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 1.938 ms[39m
+[35m[39m
+2024-01-14 22:13:47:1347 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.092 ms[39m
+[35m[39m
+2024-01-14 22:14:38:1438 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 3.154 ms[39m
+[35m[39m
+2024-01-14 22:14:38:1438 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 3.560 ms[39m
+[35m[39m
+2024-01-14 22:14:43:1443 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 200 8011 - 6.265 ms[39m
+[35m[39m
+2024-01-14 22:14:43:1443 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 4.594 ms[39m
+[35m[39m
+2024-01-14 22:14:52:1452 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=New%20Arrivals 200 11 - 2.212 ms[39m
+[35m[39m
+2024-01-14 22:14:52:1452 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=New%20Arrivals 304 - - 2.434 ms[39m
+[35m[39m
+2024-01-14 22:14:56:1456 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 6.755 ms[39m
+[35m[39m
+2024-01-14 22:14:56:1456 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 6.381 ms[39m
+[35m[39m
+2024-01-14 22:15:01:151 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 3.514 ms[39m
+[35m[39m
+2024-01-14 22:15:01:151 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 3.320 ms[39m
+[35m[39m
+2024-01-14 22:15:08:158 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.652 ms[39m
+[35m[39m
+2024-01-14 22:15:08:158 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.738 ms[39m
+[35m[39m
