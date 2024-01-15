@@ -85,3 +85,5 @@
 [31m  7     for (let i = 0; i < 10; i++) {[39m
 [31m→ 8       await db.product.create([39m
 [31mNull constraint violation on the fields: (`order_Id`)[39m
+2024-01-15 03:28:25:2825 [31merror[39m: [31mProduct not found[39m
+2024-01-15 03:30:34:3034 [31merror[39m: [31mProduct not found[39m

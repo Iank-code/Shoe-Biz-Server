@@ -41,17 +41,6 @@ export default class ProductRepository {
       Logger.error(error);
     }
   }
-
-  // async getByTag(tag: string) {
-  //   try {
-  //     const product = await db.product.findMany({
-  //       where: { tag: tag },
-  //     });
-  //   } catch (error) {
-  //     Logger.error(error);
-  //   }
-  // }
-
   async getByTag(tag: string) {
     try {
       const products = await db.product.findMany({
