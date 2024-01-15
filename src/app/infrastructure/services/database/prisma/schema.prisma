@@ -7,8 +7,16 @@ datasource db {
   url      = "postgres://ian:mose@123@localhost/shoebiz"
 }
 
+model Order{
+  id                        String @id @default(uuid())
+  user                     Customer @relation(fields: [customerId], references: [id])
+  customerId                String @unique
+  productsInfo              Product[]
+  created_at                DateTime  @default(now())
+  updated_at                DateTime? @updatedAt
+}
 model Customer{
-  id                        String    @id @default(uuid())
+  id                        String @id @default(uuid())
   name                      String
   email                     String @unique
   password                  String
@@ -16,19 +24,22 @@ model Customer{
   phoneNumber               String? @unique
   otp                       String?
   confirmedEmail            Boolean?
+  order                      Order?
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }
 
 model Product{
   id                        String @id @default(uuid())
-  name                    String
-  description                     String
-  oldPrice                    String?
-  newPrice                    String
-  shoeSize                    String[]
+  name                      String
+  description               String
+  oldPrice                  String?
+  newPrice                  String
+  shoeSize                  String[]
   images                    String[]
-  tag                     String[]
+  tag                       String[]
+  order                     Order? @relation(fields: [order_Id], references: [id])
+  order_Id                   String?
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }

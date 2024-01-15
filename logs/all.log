@@ -1296,3 +1296,177 @@
 [35m[39m
 2024-01-14 22:15:08:158 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.738 ms[39m
 [35m[39m
+2024-01-14 22:50:27:5027 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 104.977 ms[39m
+[35m[39m
+2024-01-14 22:50:27:5027 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 4.125 ms[39m
+[35m[39m
+2024-01-14 22:50:30:5030 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.918 ms[39m
+[35m[39m
+2024-01-14 22:50:30:5030 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.451 ms[39m
+[35m[39m
+2024-01-14 22:51:23:5123 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 3.247 ms[39m
+[35m[39m
+2024-01-14 22:51:23:5123 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 6.343 ms[39m
+[35m[39m
+2024-01-14 22:51:27:5127 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.268 ms[39m
+[35m[39m
+2024-01-14 22:51:27:5127 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.397 ms[39m
+[35m[39m
+2024-01-14 22:57:32:5732 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 34.719 ms[39m
+[35m[39m
+2024-01-14 22:57:32:5732 [35mhttp[39m: [35mGET /api/v1/product/product/bb1f4479-9cc2-4afb-b46d-6e10ec35d018 304 - - 2.282 ms[39m
+[35m[39m
+2024-01-14 22:57:33:5733 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.044 ms[39m
+[35m[39m
+2024-01-14 22:57:33:5733 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.634 ms[39m
+[35m[39m
+2024-01-14 22:58:06:586 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.040 ms[39m
+[35m[39m
+2024-01-14 22:58:06:586 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.824 ms[39m
+[35m[39m
+2024-01-14 22:58:38:5838 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.300 ms[39m
+[35m[39m
+2024-01-14 22:58:39:5839 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.764 ms[39m
+[35m[39m
+2024-01-14 22:59:03:593 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.907 ms[39m
+[35m[39m
+2024-01-14 22:59:03:593 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 9.172 ms[39m
+[35m[39m
+2024-01-14 22:59:29:5929 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.360 ms[39m
+[35m[39m
+2024-01-14 22:59:29:5929 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.167 ms[39m
+[35m[39m
+2024-01-14 23:16:53:1653 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 22.068 ms[39m
+[35m[39m
+2024-01-14 23:16:53:1653 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.371 ms[39m
+[35m[39m
+2024-01-14 23:17:25:1725 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.011 ms[39m
+[35m[39m
+2024-01-14 23:17:25:1725 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.412 ms[39m
+[35m[39m
+2024-01-14 23:17:27:1727 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.546 ms[39m
+[35m[39m
+2024-01-14 23:17:27:1727 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.115 ms[39m
+[35m[39m
+2024-01-14 23:18:23:1823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.598 ms[39m
+[35m[39m
+2024-01-14 23:18:23:1823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.587 ms[39m
+[35m[39m
+2024-01-14 23:18:48:1848 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.169 ms[39m
+[35m[39m
+2024-01-14 23:18:48:1848 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 1.999 ms[39m
+[35m[39m
+2024-01-14 23:19:27:1927 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.391 ms[39m
+[35m[39m
+2024-01-14 23:19:27:1927 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.585 ms[39m
+[35m[39m
+2024-01-14 23:24:43:2443 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 20.055 ms[39m
+[35m[39m
+2024-01-14 23:24:44:2444 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 16.026 ms[39m
+[35m[39m
+2024-01-14 23:25:10:2510 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.836 ms[39m
+[35m[39m
+2024-01-14 23:25:10:2510 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.421 ms[39m
+[35m[39m
+2024-01-14 23:28:57:2857 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.868 ms[39m
+[35m[39m
+2024-01-14 23:28:57:2857 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 6.683 ms[39m
+[35m[39m
+2024-01-14 23:32:03:323 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.326 ms[39m
+[35m[39m
+2024-01-14 23:32:03:323 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.690 ms[39m
+[35m[39m
+2024-01-14 23:34:20:3420 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.070 ms[39m
+[35m[39m
+2024-01-14 23:34:20:3420 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 5.778 ms[39m
+[35m[39m
+2024-01-14 23:48:41:4841 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 26.629 ms[39m
+[35m[39m
+2024-01-14 23:48:41:4841 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 10.717 ms[39m
+[35m[39m
+2024-01-14 23:49:08:498 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.456 ms[39m
+[35m[39m
+2024-01-14 23:49:08:498 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.564 ms[39m
+[35m[39m
+2024-01-14 23:49:46:4946 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.623 ms[39m
+[35m[39m
+2024-01-14 23:49:46:4946 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.213 ms[39m
+[35m[39m
+2024-01-14 23:52:55:5255 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 8.252 ms[39m
+[35m[39m
+2024-01-14 23:52:55:5255 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 14.164 ms[39m
+[35m[39m
+2024-01-15 00:51:28:5128 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 37.617 ms[39m
+[35m[39m
+2024-01-15 00:51:28:5128 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 5.258 ms[39m
+[35m[39m
+2024-01-15 01:15:00:150 [35mhttp[39m: [35mGET /api/v1/product/product/d1d1946a-d60d-47c1-8a9b-7c33a0fb18b1 200 819 - 30.033 ms[39m
+[35m[39m
+2024-01-15 01:15:00:150 [35mhttp[39m: [35mGET /api/v1/product/product/d1d1946a-d60d-47c1-8a9b-7c33a0fb18b1 304 - - 2.733 ms[39m
+[35m[39m
+2024-01-15 02:17:46:1746 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-15 02:29:28:2928 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:29:28:2928 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:30:21:3021 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:30:21:3021 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:32:01:321 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-15 02:32:01:321 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 123 - 3444.258 ms[39m
+[35m[39m
+2024-01-15 02:32:31:3231 [35mhttp[39m: [35mGET /api/v1/customer/login 404 160 - 1.963 ms[39m
+[35m[39m
+2024-01-15 02:32:34:3234 [35mhttp[39m: [35mPOST /api/v1/customer/login 404 161 - 3.157 ms[39m
+[35m[39m
+2024-01-15 02:32:36:3236 [35mhttp[39m: [35mPOST /api/v1/customer/login 404 161 - 1.367 ms[39m
+[35m[39m
+2024-01-15 02:34:12:3412 [31merror[39m: [31m[39m
+[31mInvalid `db.product.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/services/database/seeders/product.seeder.ts:8:24[39m
+
+[31m  5 const productSeeder = async () => {[39m
+[31m  6   try {[39m
+[31m  7     for (let i = 0; i < 10; i++) {[39m
+[31m→ 8       await db.product.create([39m
+[31mNull constraint violation on the fields: (`order_Id`)[39m
+2024-01-15 02:34:12:3412 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-15 02:35:21:3521 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-15 02:35:30:3530 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-15 02:35:30:3530 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 123 - 2418.556 ms[39m
+[35m[39m
+2024-01-15 02:35:41:3541 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:35:41:3541 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:37:41:3741 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:37:41:3741 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:37:51:3751 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:37:51:3751 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:38:10:3810 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-15 02:39:52:3952 [37mdebug[39m: [37mServer started[39m
+2024-01-15 02:39:52:3952 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 02:40:00:400 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-15 02:40:00:400 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 452 - 3099.634 ms[39m
+[35m[39m
+2024-01-15 02:42:53:4253 [35mhttp[39m: [35mGET /api/v1/product/getall 200 8051 - 6.194 ms[39m
+[35m[39m
+2024-01-15 02:42:55:4255 [35mhttp[39m: [35mGET /api/v1/product/getall 200 8051 - 3.525 ms[39m
+[35m[39m
+2024-01-15 02:43:09:439 [35mhttp[39m: [35mGET /api/v1/product/getall 200 8051 - 3.062 ms[39m
+[35m[39m
+2024-01-15 02:43:09:439 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.264 ms[39m
+[35m[39m
+2024-01-15 02:43:22:4322 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.096 ms[39m
+[35m[39m
+2024-01-15 02:43:22:4322 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.861 ms[39m
+[35m[39m
+2024-01-15 02:59:25:5925 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-15 03:01:06:16 [37mdebug[39m: [37mServer started[39m
+2024-01-15 03:01:06:16 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 03:01:30:130 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-15 03:01:30:130 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 452 - 8733.543 ms[39m
+[35m[39m
+2024-01-15 03:07:41:741 [35mhttp[39m: [35mGET /api/v1/product/getall 200 7783 - 37.298 ms[39m
+[35m[39m
+2024-01-15 03:07:41:741 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.407 ms[39m
+[35m[39m
+2024-01-15 03:09:26:926 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 200 7783 - 5.965 ms[39m
+[35m[39m
+2024-01-15 03:09:26:926 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 9.469 ms[39m
+[35m[39m

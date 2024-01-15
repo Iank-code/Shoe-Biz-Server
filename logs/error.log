@@ -76,3 +76,12 @@
 [31mThe column `username` does not exist in the current database.[39m
 2024-01-08 06:17:12:1712 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
 2024-01-08 06:18:13:1813 [31merror[39m: [31mENOENT: no such file or directory, open '/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/presentation/template/email/customer/registration.ejs'[39m
+2024-01-15 02:34:12:3412 [31merror[39m: [31m[39m
+[31mInvalid `db.product.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/services/database/seeders/product.seeder.ts:8:24[39m
+
+[31m  5 const productSeeder = async () => {[39m
+[31m  6   try {[39m
+[31m  7     for (let i = 0; i < 10; i++) {[39m
+[31m→ 8       await db.product.create([39m
+[31mNull constraint violation on the fields: (`order_Id`)[39m

@@ -56,6 +56,7 @@ export default class CustomerRepository {
         status: 200,
         message:
           "Account has been created successfully. A verification email has been sent to your email address.",
+        customer,
       };
     } catch (error) {
       Logger.error(error);
