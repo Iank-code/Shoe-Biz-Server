@@ -14,6 +14,7 @@ export default class OrderRepository {
         throw new Error("Product not found");
       }
 
+
       const order = await db.order.create({
         data: {
           user: {
@@ -44,44 +45,6 @@ export default class OrderRepository {
       throw new Error("Failed to create order");
     }
   }
-
-  // Example usage:
-  // const result = await createOrder("customerId123", "productId1", "2");
-  // console.log(result);
-
-  // async createOrder(customerId: string, productsInfo: string, units: string) {
-  //   try {
-  //     const product = await db.product.findFirst({
-  //       where: { id: productsInfo },
-  //     });
-
-  //     if (!product) {
-  //       // Handle the case where the product with the specified id is not found
-  //       throw new Error("Product not found");
-  //     }
-
-  //     const order = await db.order.create({
-  //       data: {
-  //         user: {
-  //           connect: { id: customerId },
-  //         },
-  //         customerOrderInfo: {
-  //           connect: {
-  //             units: units,
-  //             productsInfo: {
-  //               connect: { id: product.id },
-  //             },
-  //           },
-  //         },
-  //       },
-  //     });
-
-  //     return { order };
-  //   } catch (error) {
-  //     Logger.error(error);
-  //     //   throw new Error("Failed to create order");
-  //   }
-  // }
 
   async getOrderById(id: string) {
     try {

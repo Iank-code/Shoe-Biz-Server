@@ -1944,3 +1944,49 @@
 [35m[39m
 2024-01-18 02:09:08:98 [35mhttp[39m: [35mPOST /api/v1/order/create 200 1223 - 31.619 ms[39m
 [35m[39m
+2024-01-18 02:10:56:1056 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:10:56:1056 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:11:12:1112 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:11:12:1112 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:11:30:1130 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:11:30:1130 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:11:32:1132 [35mhttp[39m: [35mGET /api/v1/product/product/a4271f8c-0333-425d-8121-934482514211 200 801 - 57.386 ms[39m
+[35m[39m
+2024-01-18 02:11:56:1156 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:11:56:1156 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:13:35:1335 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:13:35:1335 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:14:29:1429 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:14:29:1429 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:14:31:1431 [35mhttp[39m: [35mPOST /api/v1/order/create 200 - - 75.011 ms[39m
+[35m[39m
+2024-01-18 02:14:44:1444 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:14:44:1444 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:14:52:1452 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:14:52:1452 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:15:10:1510 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:15:10:1510 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:15:35:1535 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:15:35:1535 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:16:00:160 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:16:00:160 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:18:26:1826 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:18:26:1826 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:18:52:1852 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-18 02:19:02:192 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:19:02:192 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:19:05:195 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-18 02:19:05:195 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 452 - 3004.110 ms[39m
+[35m[39m
+2024-01-18 02:19:19:1919 [35mhttp[39m: [35mGET /api/v1/product/product/ 404 162 - 3.114 ms[39m
+[35m[39m
+2024-01-18 02:19:30:1930 [35mhttp[39m: [35mGET /api/v1/product/ 404 154 - 1.310 ms[39m
+[35m[39m
+2024-01-18 02:19:32:1932 [35mhttp[39m: [35mGET /api/v1/product/ 404 154 - 0.526 ms[39m
+[35m[39m
+2024-01-18 02:19:32:1932 [35mhttp[39m: [35mGET /api/v1/product/ 404 154 - 0.455 ms[39m
+[35m[39m
+2024-01-18 02:19:41:1941 [35mhttp[39m: [35mGET /api/v1/product/getall 200 7893 - 5.748 ms[39m
+[35m[39m
+2024-01-18 02:19:58:1958 [35mhttp[39m: [35mPOST /api/v1/order/create 200 1241 - 19.432 ms[39m
+[35m[39m
