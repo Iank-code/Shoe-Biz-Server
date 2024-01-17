@@ -1632,3 +1632,315 @@
 2024-01-15 03:55:47:5547 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
 2024-01-15 03:55:52:5552 [35mhttp[39m: [35mGET /api/v1/order/d861ffc8-e517-439d-929c-f9fef3652004 200 1340 - 66.703 ms[39m
 [35m[39m
+2024-01-15 18:36:43:3643 [37mdebug[39m: [37mServer started[39m
+2024-01-15 18:36:43:3643 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-15 18:37:17:3717 [35mhttp[39m: [35mGET /api/v1/product/getall 200 7817 - 146.032 ms[39m
+[35m[39m
+2024-01-15 18:37:17:3717 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 8.201 ms[39m
+[35m[39m
+2024-01-15 18:40:01:401 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 15.613 ms[39m
+[35m[39m
+2024-01-15 18:40:01:401 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 2.929 ms[39m
+[35m[39m
+2024-01-15 18:40:06:406 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 200 7817 - 3.834 ms[39m
+[35m[39m
+2024-01-15 18:40:06:406 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 22.201 ms[39m
+[35m[39m
+2024-01-15 18:40:08:408 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 3.611 ms[39m
+[35m[39m
+2024-01-15 18:40:08:408 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Ladies 304 - - 3.044 ms[39m
+[35m[39m
+2024-01-15 18:40:09:409 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 200 7817 - 4.219 ms[39m
+[35m[39m
+2024-01-15 18:40:09:409 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 5.605 ms[39m
+[35m[39m
+2024-01-15 18:40:14:4014 [35mhttp[39m: [35mGET /api/v1/product/product/1364dfe8-f6b5-41f9-b959-fad59af669e0 200 792 - 7.230 ms[39m
+[35m[39m
+2024-01-15 18:40:14:4014 [35mhttp[39m: [35mGET /api/v1/product/product/1364dfe8-f6b5-41f9-b959-fad59af669e0 304 - - 13.233 ms[39m
+[35m[39m
+2024-01-15 18:40:17:4017 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 5.505 ms[39m
+[35m[39m
+2024-01-15 18:40:17:4017 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Kids 304 - - 4.757 ms[39m
+[35m[39m
+2024-01-15 22:35:02:352 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 92.969 ms[39m
+[35m[39m
+2024-01-15 22:35:02:352 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.823 ms[39m
+[35m[39m
+2024-01-15 22:35:10:3510 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 45.467 ms[39m
+[35m[39m
+2024-01-15 22:35:10:3510 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 8.160 ms[39m
+[35m[39m
+2024-01-15 22:38:23:3823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 5.996 ms[39m
+[35m[39m
+2024-01-15 22:38:23:3823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.582 ms[39m
+[35m[39m
+2024-01-15 22:39:34:3934 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 5.565 ms[39m
+[35m[39m
+2024-01-15 22:39:34:3934 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.508 ms[39m
+[35m[39m
+2024-01-15 22:41:03:413 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.793 ms[39m
+[35m[39m
+2024-01-15 22:41:03:413 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.656 ms[39m
+[35m[39m
+2024-01-15 22:42:56:4256 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.764 ms[39m
+[35m[39m
+2024-01-15 22:42:56:4256 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 6.397 ms[39m
+[35m[39m
+2024-01-15 22:50:08:508 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 84.982 ms[39m
+[35m[39m
+2024-01-15 22:50:08:508 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 4.303 ms[39m
+[35m[39m
+2024-01-15 22:53:43:5343 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 200 768 - 6.524 ms[39m
+[35m[39m
+2024-01-15 22:53:43:5343 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 304 - - 3.462 ms[39m
+[35m[39m
+2024-01-15 22:54:52:5452 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 304 - - 7.273 ms[39m
+[35m[39m
+2024-01-15 22:54:52:5452 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 304 - - 3.397 ms[39m
+[35m[39m
+2024-01-15 22:54:57:5457 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 304 - - 3.443 ms[39m
+[35m[39m
+2024-01-15 22:54:57:5457 [35mhttp[39m: [35mGET /api/v1/product/product/05ce4c96-1f8a-4a57-8b56-c315976aea34 304 - - 2.764 ms[39m
+[35m[39m
+2024-01-15 22:55:05:555 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 4.218 ms[39m
+[35m[39m
+2024-01-15 22:55:05:555 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 18.856 ms[39m
+[35m[39m
+2024-01-15 22:55:10:5510 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 200 839 - 3.143 ms[39m
+[35m[39m
+2024-01-15 22:55:10:5510 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.130 ms[39m
+[35m[39m
+2024-01-15 23:18:08:188 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 94.073 ms[39m
+[35m[39m
+2024-01-15 23:18:08:188 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 14.751 ms[39m
+[35m[39m
+2024-01-15 23:30:49:3049 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 20.867 ms[39m
+[35m[39m
+2024-01-15 23:30:49:3049 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.792 ms[39m
+[35m[39m
+2024-01-15 23:31:31:3131 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.711 ms[39m
+[35m[39m
+2024-01-15 23:31:31:3131 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 1.827 ms[39m
+[35m[39m
+2024-01-15 23:31:51:3151 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.709 ms[39m
+[35m[39m
+2024-01-15 23:31:51:3151 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.307 ms[39m
+[35m[39m
+2024-01-15 23:32:08:328 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.984 ms[39m
+[35m[39m
+2024-01-15 23:32:08:328 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 1.791 ms[39m
+[35m[39m
+2024-01-15 23:32:30:3230 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.118 ms[39m
+[35m[39m
+2024-01-15 23:32:30:3230 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.691 ms[39m
+[35m[39m
+2024-01-15 23:36:51:3651 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.593 ms[39m
+[35m[39m
+2024-01-15 23:36:51:3651 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 6.437 ms[39m
+[35m[39m
+2024-01-15 23:41:51:4151 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 27.575 ms[39m
+[35m[39m
+2024-01-15 23:41:51:4151 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 6.467 ms[39m
+[35m[39m
+2024-01-15 23:45:03:453 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.188 ms[39m
+[35m[39m
+2024-01-15 23:45:03:453 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 1.718 ms[39m
+[35m[39m
+2024-01-15 23:45:48:4548 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.446 ms[39m
+[35m[39m
+2024-01-15 23:45:48:4548 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.663 ms[39m
+[35m[39m
+2024-01-16 15:46:30:4630 [37mdebug[39m: [37mServer started[39m
+2024-01-16 15:46:30:4630 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-16 15:47:06:476 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 131.850 ms[39m
+[35m[39m
+2024-01-16 15:47:06:476 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 5.777 ms[39m
+[35m[39m
+2024-01-16 17:03:39:339 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 61.860 ms[39m
+[35m[39m
+2024-01-16 17:03:39:339 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 14.146 ms[39m
+[35m[39m
+2024-01-16 17:03:54:354 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.924 ms[39m
+[35m[39m
+2024-01-16 17:03:54:354 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.928 ms[39m
+[35m[39m
+2024-01-16 17:06:39:639 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 10.462 ms[39m
+[35m[39m
+2024-01-16 17:06:39:639 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 4.666 ms[39m
+[35m[39m
+2024-01-16 17:11:12:1112 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 5.821 ms[39m
+[35m[39m
+2024-01-16 17:11:12:1112 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.298 ms[39m
+[35m[39m
+2024-01-16 17:11:57:1157 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 11.058 ms[39m
+[35m[39m
+2024-01-16 17:11:57:1157 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 7.690 ms[39m
+[35m[39m
+2024-01-16 17:12:10:1210 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.031 ms[39m
+[35m[39m
+2024-01-16 17:12:10:1210 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 10.265 ms[39m
+[35m[39m
+2024-01-16 17:12:36:1236 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 5.488 ms[39m
+[35m[39m
+2024-01-16 17:12:36:1236 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 4.327 ms[39m
+[35m[39m
+2024-01-16 17:13:33:1333 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 4.469 ms[39m
+[35m[39m
+2024-01-16 17:13:33:1333 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 10.618 ms[39m
+[35m[39m
+2024-01-16 17:14:06:146 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.328 ms[39m
+[35m[39m
+2024-01-16 17:14:06:146 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.686 ms[39m
+[35m[39m
+2024-01-16 17:15:37:1537 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.998 ms[39m
+[35m[39m
+2024-01-16 17:15:37:1537 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.149 ms[39m
+[35m[39m
+2024-01-16 17:16:42:1642 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.310 ms[39m
+[35m[39m
+2024-01-16 17:16:42:1642 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.427 ms[39m
+[35m[39m
+2024-01-16 18:59:11:5911 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 69.152 ms[39m
+[35m[39m
+2024-01-16 18:59:11:5911 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 14.513 ms[39m
+[35m[39m
+2024-01-16 18:59:58:5958 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.511 ms[39m
+[35m[39m
+2024-01-16 18:59:58:5958 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 12.206 ms[39m
+[35m[39m
+2024-01-16 19:00:56:056 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.376 ms[39m
+[35m[39m
+2024-01-16 19:00:56:056 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.882 ms[39m
+[35m[39m
+2024-01-16 19:00:58:058 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 6.942 ms[39m
+[35m[39m
+2024-01-16 19:00:58:058 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.458 ms[39m
+[35m[39m
+2024-01-16 19:01:02:12 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.180 ms[39m
+[35m[39m
+2024-01-16 19:01:02:12 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.851 ms[39m
+[35m[39m
+2024-01-16 19:01:38:138 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 4.334 ms[39m
+[35m[39m
+2024-01-16 19:01:38:138 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.597 ms[39m
+[35m[39m
+2024-01-16 19:01:39:139 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.622 ms[39m
+[35m[39m
+2024-01-16 19:01:39:139 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.460 ms[39m
+[35m[39m
+2024-01-16 19:02:10:210 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 2.718 ms[39m
+[35m[39m
+2024-01-16 19:02:10:210 [35mhttp[39m: [35mGET /api/v1/product/product/5bf6d747-dae5-4794-989d-d0fdfaa9deeb 304 - - 3.729 ms[39m
+[35m[39m
+2024-01-16 19:06:06:66 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 12.019 ms[39m
+[35m[39m
+2024-01-16 19:06:06:66 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 20.219 ms[39m
+[35m[39m
+2024-01-16 19:06:10:610 [35mhttp[39m: [35mGET /api/v1/product/product/1364dfe8-f6b5-41f9-b959-fad59af669e0 304 - - 3.392 ms[39m
+[35m[39m
+2024-01-16 19:06:10:610 [35mhttp[39m: [35mGET /api/v1/product/product/1364dfe8-f6b5-41f9-b959-fad59af669e0 304 - - 3.808 ms[39m
+[35m[39m
+2024-01-16 19:06:22:622 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 4.242 ms[39m
+[35m[39m
+2024-01-16 19:06:22:622 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 3.416 ms[39m
+[35m[39m
+2024-01-16 19:06:24:624 [35mhttp[39m: [35mGET /api/v1/product/product/9a3206ec-ee1c-4d08-bca7-72a42a718ff3 200 820 - 2.992 ms[39m
+[35m[39m
+2024-01-16 19:06:24:624 [35mhttp[39m: [35mGET /api/v1/product/product/9a3206ec-ee1c-4d08-bca7-72a42a718ff3 304 - - 3.187 ms[39m
+[35m[39m
+2024-01-17 23:42:11:4211 [37mdebug[39m: [37mServer started[39m
+2024-01-17 23:42:11:4211 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-17 23:45:32:4532 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 136.429 ms[39m
+[35m[39m
+2024-01-17 23:45:32:4532 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 7.484 ms[39m
+[35m[39m
+2024-01-17 23:45:44:4544 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.420 ms[39m
+[35m[39m
+2024-01-17 23:45:44:4544 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.499 ms[39m
+[35m[39m
+2024-01-17 23:45:54:4554 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 200 812 - 12.680 ms[39m
+[35m[39m
+2024-01-17 23:45:54:4554 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 4.331 ms[39m
+[35m[39m
+2024-01-17 23:47:11:4711 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.096 ms[39m
+[35m[39m
+2024-01-17 23:47:11:4711 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 2.112 ms[39m
+[35m[39m
+2024-01-17 23:48:10:4810 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.534 ms[39m
+[35m[39m
+2024-01-17 23:48:10:4810 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 5.827 ms[39m
+[35m[39m
+2024-01-17 23:48:38:4838 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.607 ms[39m
+[35m[39m
+2024-01-17 23:48:38:4838 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.577 ms[39m
+[35m[39m
+2024-01-17 23:49:03:493 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.706 ms[39m
+[35m[39m
+2024-01-17 23:49:03:493 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.521 ms[39m
+[35m[39m
+2024-01-17 23:49:08:498 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 4.109 ms[39m
+[35m[39m
+2024-01-17 23:49:08:498 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.915 ms[39m
+[35m[39m
+2024-01-17 23:49:09:499 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 2.496 ms[39m
+[35m[39m
+2024-01-17 23:49:09:499 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 6.032 ms[39m
+[35m[39m
+2024-01-17 23:50:11:5011 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 2.372 ms[39m
+[35m[39m
+2024-01-17 23:50:11:5011 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 2.227 ms[39m
+[35m[39m
+2024-01-17 23:50:18:5018 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 3.094 ms[39m
+[35m[39m
+2024-01-17 23:50:18:5018 [35mhttp[39m: [35mGET /api/v1/product/product/cba4fd25-8d78-4b64-a9bb-1df0c1540423 304 - - 2.944 ms[39m
+[35m[39m
+2024-01-18 00:02:09:29 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 83.256 ms[39m
+[35m[39m
+2024-01-18 00:02:09:29 [35mhttp[39m: [35mGET /api/v1/product/shop?tag=Men 304 - - 11.274 ms[39m
+[35m[39m
+2024-01-18 00:02:12:212 [35mhttp[39m: [35mGET /api/v1/product/product/027da9cf-2faa-4feb-a913-87b91d2a5def 200 804 - 3.551 ms[39m
+[35m[39m
+2024-01-18 00:02:12:212 [35mhttp[39m: [35mGET /api/v1/product/product/027da9cf-2faa-4feb-a913-87b91d2a5def 304 - - 2.759 ms[39m
+[35m[39m
+2024-01-18 01:35:59:3559 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 42.745 ms[39m
+[35m[39m
+2024-01-18 01:35:59:3559 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 5.622 ms[39m
+[35m[39m
+2024-01-18 01:36:08:368 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.519 ms[39m
+[35m[39m
+2024-01-18 01:36:08:368 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 24.110 ms[39m
+[35m[39m
+2024-01-18 02:05:09:59 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-18 02:05:18:518 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:05:18:518 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:05:24:524 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
+2024-01-18 02:05:24:524 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 - - 162.624 ms[39m
+[35m[39m
+2024-01-18 02:05:34:534 [35mhttp[39m: [35mPOST /api/v1/customer/login 404 161 - 2.646 ms[39m
+[35m[39m
+2024-01-18 02:06:05:65 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-01-18 02:06:17:617 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:06:17:617 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:06:21:621 [32minfo[39m: [32mMessage sent: %s[39m
+2024-01-18 02:06:21:621 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 452 - 3591.911 ms[39m
+[35m[39m
+2024-01-18 02:06:25:625 [35mhttp[39m: [35mPOST /api/v1/customer/login 404 161 - 3.598 ms[39m
+[35m[39m
+2024-01-18 02:06:26:626 [35mhttp[39m: [35mPOST /api/v1/customer/login 404 161 - 1.566 ms[39m
+[35m[39m
+2024-01-18 02:08:13:813 [37mdebug[39m: [37mServer started[39m
+2024-01-18 02:08:13:813 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-01-18 02:08:38:838 [35mhttp[39m: [35mGET /api/v1/product/getall 200 7983 - 50.618 ms[39m
+[35m[39m
+2024-01-18 02:08:59:859 [35mhttp[39m: [35mGET /api/v1/product/product/a4271f8c-0333-425d-8121-934482514211 200 767 - 7.618 ms[39m
+[35m[39m
+2024-01-18 02:09:08:98 [35mhttp[39m: [35mPOST /api/v1/order/create 200 1223 - 31.619 ms[39m
+[35m[39m

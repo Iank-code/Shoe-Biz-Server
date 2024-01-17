@@ -7,8 +7,8 @@ export default class OrderUsecase {
     this.repository = new OrderRepository();
   }
 
-  async createOrder(customerId: string, productsInfo: string) {
-    return await this.repository.createOrder(customerId, productsInfo);
+  async createOrder(customerId: string, productsInfo: string, units: string) {
+    return await this.repository.createOrder(customerId, productsInfo, units);
   }
 
   async getOrderById(id: string) {

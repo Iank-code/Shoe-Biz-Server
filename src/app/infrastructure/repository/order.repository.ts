@@ -4,33 +4,13 @@ import { db } from "../services/database/client/db.client";
 export default class OrderRepository {
   constructor() {}
 
-  //   async createOrder(customerId: string, productsInfo: string) {
-  //     try {
-
-  //         const product = await db.product.findFirst({
-  //           where: { id: productsInfo },
-  //         });
-  //       const order = await db.order.create({
-  //         data: {
-  //           create: {
-  //             customerId: customerId,
-  //             productsInfo: product,
-  //           },
-  //         },
-  //       });
-  //     } catch (error) {
-  //       Logger.error(error);
-  //     }
-  //   }
-
-  async createOrder(customerId: string, productsInfo: string) {
+  async createOrder(customerId: string, productId: string, units: string) {
     try {
       const product = await db.product.findFirst({
-        where: { id: productsInfo },
+        where: { id: productId },
       });
 
       if (!product) {
-        // Handle the case where the product with the specified id is not found
         throw new Error("Product not found");
       }
 
@@ -39,26 +19,77 @@ export default class OrderRepository {
           user: {
             connect: { id: customerId },
           },
-          productsInfo: {
-            connect: { id: product.id },
+          customerOrderInfo: {
+            create: {
+              shoeSize: "40", // Replace with the actual shoe size logic
+              units: units,
+              productsInfo: {
+                connect: { id: productId },
+              },
+            },
+          },
+        },
+        include: {
+          customerOrderInfo: {
+            include: {
+              productsInfo: true,
+            },
           },
         },
       });
 
       return { order };
     } catch (error) {
-      Logger.error(error);
-      //   throw new Error("Failed to create order");
+      console.error(error);
+      throw new Error("Failed to create order");
     }
   }
+
+  // Example usage:
+  // const result = await createOrder("customerId123", "productId1", "2");
+  // console.log(result);
+
+  // async createOrder(customerId: string, productsInfo: string, units: string) {
+  //   try {
+  //     const product = await db.product.findFirst({
+  //       where: { id: productsInfo },
+  //     });
+
+  //     if (!product) {
+  //       // Handle the case where the product with the specified id is not found
+  //       throw new Error("Product not found");
+  //     }
+
+  //     const order = await db.order.create({
+  //       data: {
+  //         user: {
+  //           connect: { id: customerId },
+  //         },
+  //         customerOrderInfo: {
+  //           connect: {
+  //             units: units,
+  //             productsInfo: {
+  //               connect: { id: product.id },
+  //             },
+  //           },
+  //         },
+  //       },
+  //     });
+
+  //     return { order };
+  //   } catch (error) {
+  //     Logger.error(error);
+  //     //   throw new Error("Failed to create order");
+  //   }
+  // }
 
   async getOrderById(id: string) {
     try {
       const order = await db.order.findFirst({
         where: { id: id },
         include: {
-          productsInfo: true,
-          user: true
+          customerOrderInfo: true,
+          user: true,
         },
       });
       if (!order) {

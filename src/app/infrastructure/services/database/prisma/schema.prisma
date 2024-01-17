@@ -10,11 +10,24 @@ datasource db {
 model Order{
   id                        String @id @default(uuid())
   user                     Customer @relation(fields: [customerId], references: [id])
+
+  customerOrderInfo CustomerOrder[]
   customerId                String @unique
-  productsInfo              Product[]
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }
+
+model CustomerOrder{
+  id                        String @id @default(uuid())
+  shoeSize                  String
+  units                     String
+  productsInfo              Product[]
+  order                     Order @relation(fields: [order_id], references: [id])
+  order_id                  String
+  created_at                DateTime @default(now())
+  updated_at                DateTime? @updatedAt
+}
+
 model Customer{
   id                        String @id @default(uuid())
   name                      String
@@ -38,8 +51,8 @@ model Product{
   shoeSize                  String[]
   images                    String[]
   tag                       String[]
-  order                     Order? @relation(fields: [order_Id], references: [id])
-  order_Id                   String?
+  order                     CustomerOrder? @relation(fields: [customerOrder_Id], references: [id])
+  customerOrder_Id                   String?
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }
