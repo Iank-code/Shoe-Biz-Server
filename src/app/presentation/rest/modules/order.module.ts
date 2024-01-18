@@ -1,5 +1,6 @@
 import { Request, Response, Router } from "express";
 import OrderUsecase from "../../../application/usecases/order.usecase";
+import { orderType } from "../../../application/utils/helpers";
 
 const usecase: OrderUsecase = new OrderUsecase();
 
@@ -17,8 +18,11 @@ export default class OrderModule {
     this.router.get("/:id", this.getOrderById);
   }
   private async createOrder(req: Request, res: Response) {
-    const { customerId, productsInfo, units } = req.body;
-    const response = await usecase.createOrder(customerId, productsInfo, units);
+    const {
+      customerId,
+      productsInfo,
+    }: { customerId: string; productsInfo: orderType[]} = req.body;
+    const response = await usecase.createOrder(customerId, productsInfo);
     return res.send(response);
   }
   private async getOrderById(req: Request, res: Response) {

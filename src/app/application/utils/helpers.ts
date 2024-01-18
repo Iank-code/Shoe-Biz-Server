@@ -29,6 +29,14 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+interface productsTypes{
+  id: string
+}
+export interface orderType {
+  products: productsTypes;
+  quantity: number;
+  size: string;
+}
 export {
   //   comparePasswords,
   //   generateSecurePasswords,

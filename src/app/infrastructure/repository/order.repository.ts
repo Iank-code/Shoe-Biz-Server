@@ -1,33 +1,35 @@
 import Logger from "../../application/middleware/loggers/logger";
+import { orderType } from "../../application/utils/helpers";
 import { db } from "../services/database/client/db.client";
 
 export default class OrderRepository {
   constructor() {}
 
-  async createOrder(customerId: string, productId: string, units: string) {
+  async createOrder(customerId: string, productInfo: orderType[]) {
     try {
-      const product = await db.product.findFirst({
-        where: { id: productId },
+      const customer = await db.customer.findUnique({
+        where: { id: customerId },
       });
 
-      if (!product) {
-        throw new Error("Product not found");
+      if (!customer) {
+        throw new Error("Customer not found");
       }
 
-
-      const order = await db.order.create({
+      const customerOrder = await db.order.create({
         data: {
           user: {
             connect: { id: customerId },
           },
           customerOrderInfo: {
-            create: {
-              shoeSize: "40", // Replace with the actual shoe size logic
-              units: units,
-              productsInfo: {
-                connect: { id: productId },
-              },
-            },
+            create: productInfo.map((info) => {
+              return {
+                shoeSize: info.size,
+                units: info.quantity.toString(),
+                productsInfo: {
+                  connect: { id: info.products.id },
+                },
+              };
+            }),
           },
         },
         include: {
@@ -39,10 +41,9 @@ export default class OrderRepository {
         },
       });
 
-      return { order };
+      return customerOrder;
     } catch (error) {
       console.error(error);
-      throw new Error("Failed to create order");
     }
   }
 
