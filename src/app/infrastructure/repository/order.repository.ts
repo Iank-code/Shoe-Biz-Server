@@ -22,11 +22,12 @@ export default class OrderRepository {
           },
           customerOrderInfo: {
             create: productInfo.map((info) => {
+              console.log(info.product)
               return {
                 shoeSize: info.size,
                 units: info.quantity.toString(),
                 productsInfo: {
-                  connect: { id: info.products.id },
+                  connect: { id: info.product.id },
                 },
               };
             }),
@@ -41,7 +42,10 @@ export default class OrderRepository {
         },
       });
 
-      return customerOrder;
+      return {
+        status: 201,
+        message: "Success. Order has been created successfully",
+      };
     } catch (error) {
       console.error(error);
     }

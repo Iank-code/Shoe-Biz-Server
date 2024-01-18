@@ -33,7 +33,7 @@ interface productsTypes{
   id: string
 }
 export interface orderType {
-  products: productsTypes;
+  product: productsTypes;
   quantity: number;
   size: string;
 }
