@@ -87,3 +87,12 @@
 [31mNull constraint violation on the fields: (`order_Id`)[39m
 2024-01-15 03:28:25:2825 [31merror[39m: [31mProduct not found[39m
 2024-01-15 03:30:34:3034 [31merror[39m: [31mProduct not found[39m
+2024-01-18 02:05:24:524 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:27:42[39m
+
+[31m  24 const salt = await bcrypt.genSalt(10);[39m
+[31m  25 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  26 [39m
+[31m→ 27 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m

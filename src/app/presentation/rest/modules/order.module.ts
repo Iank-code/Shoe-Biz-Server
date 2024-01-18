@@ -17,8 +17,8 @@ export default class OrderModule {
     this.router.get("/:id", this.getOrderById);
   }
   private async createOrder(req: Request, res: Response) {
-    const { customerId, productsInfo } = req.body;
-    const response = await usecase.createOrder(customerId, productsInfo);
+    const { customerId, productsInfo, units } = req.body;
+    const response = await usecase.createOrder(customerId, productsInfo, units);
     return res.send(response);
   }
   private async getOrderById(req: Request, res: Response) {
