@@ -4,11 +4,17 @@ import { transporter } from "../../application/utils/helpers";
 import bcrypt from "bcrypt";
 import path from "path";
 import ejs from "ejs";
-import jwt from "jsonwebtoken";
+// import jwt from "jsonwebtoken";
+const jwt = require("jsonwebtoken");
+import { comparePasswords } from "../../application/utils/helpers";
 
 import dotenv from "dotenv";
 dotenv.config();
 
+const notFound = {
+  status: 404,
+  message: "Either email address or password is incorrect",
+};
 export default class CustomerRepository {
   constructor() {}
 
@@ -57,6 +63,106 @@ export default class CustomerRepository {
         message:
           "Account has been created successfully. A verification email has been sent to your email address.",
         customer,
+      };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
+
+  async loginCustomer(payload: any) {
+    try {
+      const user = await db.customer.findFirst({
+        where: { email: payload.email },
+      });
+
+      if (!user) {
+        return notFound;
+      }
+
+      const passwordMatch = await comparePasswords({
+        password: payload.password,
+        encrypted: user!.password,
+      });
+
+      if (!passwordMatch) {
+        return notFound;
+      }
+
+      const accessToken = jwt.sign(
+        {
+          id: user.id,
+        },
+        process.env.JWT_SEC,
+        { expiresIn: "12h" }
+      );
+
+      const { password, otp, confirmedEmail, id, ...others } = user;
+
+      return {
+        status: 200,
+        message: "Login successful",
+        data: {
+          user: others,
+          access_token: accessToken,
+          // refresh_token: refreshToken,
+        },
+      };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
+  async customerProfile(id: string) {
+    try {
+      const user = await db.customer.findFirst({
+        where: { id },
+      });
+
+      if (!user) {
+        return {
+          status: 404,
+          message: "Customer not found",
+        };
+      }
+
+      const { password, otp, confirmedEmail, ...others } = user;
+
+      return {
+        user: others,
+        status: 200,
+        message: "User profile found",
+      };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
+
+  async updateCustomer(id: string, payload: any) {
+    try {
+      const user = await db.customer.findFirst({
+        where: { id },
+      });
+
+      if (!user) {
+        return {
+          status: 404,
+          message: "Customer not found",
+        };
+      }
+
+      const { password, name, phoneNumber } = payload;
+      const salt = await bcrypt.genSalt(10);
+      const hashed = bcrypt.hashSync(password, salt);
+
+      const update = await db.customer.update({
+        where: { id: id },
+        data: { name, phoneNumber, password: hashed },
+      });
+
+      console.log(update);
+
+      return {
+        status: 200,
+        user: update,
       };
     } catch (error) {
       Logger.error(error);

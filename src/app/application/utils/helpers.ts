@@ -1,6 +1,8 @@
 import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import bcrypt from "bcrypt";
+import { PasswordCompareInput } from "../../../../types";
 dotenv.config();
 
 /**
@@ -29,8 +31,15 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-interface productsTypes{
-  id: string
+const comparePasswords = async (
+  input: PasswordCompareInput
+): Promise<boolean> => {
+  const result = await bcrypt.compare(input.password, input.encrypted);
+  return result;
+};
+
+interface productsTypes {
+  id: string;
 }
 export interface orderType {
   product: productsTypes;
@@ -38,7 +47,7 @@ export interface orderType {
   size: string;
 }
 export {
-  //   comparePasswords,
+  comparePasswords,
   //   generateSecurePasswords,
   createCorsOptions,
   transporter,

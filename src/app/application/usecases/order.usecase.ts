@@ -12,6 +12,10 @@ export default class OrderUsecase {
     return await this.repository.createOrder(customerId, productsInfo);
   }
 
+  async getOrders(uid: string) {
+    return await this.repository.getOrders(uid);
+  }
+
   async getOrderById(id: string) {
     return await this.repository.getOrderById(id);
   }

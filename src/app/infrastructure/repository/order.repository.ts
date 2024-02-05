@@ -15,14 +15,13 @@ export default class OrderRepository {
         throw new Error("Customer not found");
       }
 
-      const customerOrder = await db.order.create({
+      await db.order.create({
         data: {
           user: {
             connect: { id: customerId },
           },
           customerOrderInfo: {
             create: productInfo.map((info) => {
-              console.log(info.product)
               return {
                 shoeSize: info.size,
                 units: info.quantity.toString(),
@@ -48,6 +47,34 @@ export default class OrderRepository {
       };
     } catch (error) {
       console.error(error);
+    }
+  }
+
+  async getOrders(uid: string) {
+    try {
+      const orders = await db.order.findMany({
+        where: { customerId: uid },
+        include: {
+          customerOrderInfo: {
+            include: {
+              productsInfo: true,
+            },
+          },
+        },
+      });
+
+      if (!orders) {
+        return {
+          status: 404,
+          message: "orders not found",
+        };
+      }
+
+      return {
+        orders,
+      };
+    } catch (error) {
+      Logger.error(error);
     }
   }
 
