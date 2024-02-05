@@ -1,5 +1,7 @@
 import { Request, Response, Router } from "express";
 import OrderUsecase from "../../../application/usecases/order.usecase";
+import { orderType } from "../../../application/utils/helpers";
+import authenticateRequest from "../../../application/middleware/jwt/jwt.middleware";
 
 const usecase: OrderUsecase = new OrderUsecase();
 
@@ -12,13 +14,22 @@ export default class OrderModule {
   }
 
   private config() {
-    this.router.post("/create", this.createOrder);
+    this.router.post("/create",authenticateRequest(), this.createOrder);
+    this.router.get("/", authenticateRequest(), this.getOrders);
     this.router.get("/shop", this.getByTag);
     this.router.get("/:id", this.getOrderById);
   }
-  private async createOrder(req: Request, res: Response) {
-    const { customerId, productsInfo, units } = req.body;
-    const response = await usecase.createOrder(customerId, productsInfo, units);
+  private async createOrder(req: any, res: Response) {
+    const {
+      productsInfo,
+    }: {productsInfo: orderType[] } = req.body;
+    const { id } = req.user;
+    const response = await usecase.createOrder(id, productsInfo);
+    return res.send(response);
+  }
+  private async getOrders(req: any, res: Response) {
+    const { id } = req.user;
+    const response = await usecase.getOrders(id);
     return res.send(response);
   }
   private async getOrderById(req: Request, res: Response) {

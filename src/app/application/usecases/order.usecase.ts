@@ -1,4 +1,5 @@
 import OrderRepository from "../../infrastructure/repository/order.repository";
+import { orderType } from "../utils/helpers";
 
 export default class OrderUsecase {
   repository;
@@ -7,8 +8,12 @@ export default class OrderUsecase {
     this.repository = new OrderRepository();
   }
 
-  async createOrder(customerId: string, productsInfo: string, units: string) {
-    return await this.repository.createOrder(customerId, productsInfo, units);
+  async createOrder(customerId: string, productsInfo: orderType[]) {
+    return await this.repository.createOrder(customerId, productsInfo);
+  }
+
+  async getOrders(uid: string) {
+    return await this.repository.getOrders(uid);
   }
 
   async getOrderById(id: string) {
