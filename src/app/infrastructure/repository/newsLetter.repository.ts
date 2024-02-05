@@ -7,7 +7,15 @@ import ejs from "ejs";
 export default class NewsLetterRepository {
   async registerInterest(email: string) {
     try {
-        
+      const registeredEmail = await db.newsletter.create({
+        data: { email },
+      });
+
+      return {
+        status: 201,
+        message: "Thank you for joining us. We will be in touch.",
+        data: registeredEmail,
+      };
     } catch (error) {
       Logger.error(error);
     }

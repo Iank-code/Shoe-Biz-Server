@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import * as yup from "yup";
 
 import { db } from "../../../infrastructure/services/database/client/db.client";
+
 import { Customer } from "@prisma/client";
 import { ServerResponse, ValidationError } from "../../../../../types";
 

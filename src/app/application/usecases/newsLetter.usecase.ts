@@ -1,9 +1,13 @@
+import NewsLetterRepository from "../../infrastructure/repository/newsLetter.repository";
+
 export default class NewsLetterUsecase {
-  // repository;
+  repository;
 
   constructor() {
-    // this.repository = new Repository()
+    this.repository = new NewsLetterRepository();
   }
 
-  async registerInterest(email: string) {}
+  async registerInterest(email: string) {
+    return await this.repository.registerInterest(email);
+  }
 }
