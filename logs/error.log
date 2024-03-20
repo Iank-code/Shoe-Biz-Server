@@ -1,0 +1,20 @@
+2024-03-20 18:55:55:5555 [31merror[39m: [31mConnection timeout[39m
+2024-03-20 18:59:52:5952 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:34:42[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
+2024-03-20 19:00:08:08 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/customer.repository.ts:34:42[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
+2024-03-20 20:39:05:395 [31merror[39m: [31mConnection timeout[39m

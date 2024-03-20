@@ -21,6 +21,7 @@ export default class CustomerRepository {
   async registerCustomer(payload: any) {
     try {
       if (payload.password !== payload.password_confirmation) {
+        console.log(payload)
         return {
           status: 422,
           message: "Password do not match",
