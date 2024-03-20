@@ -7,50 +7,50 @@ datasource db {
   url      = "postgres://ian:mose@123@localhost/shoebiz"
 }
 
-model newsletter{
-  id          String @id @default(uuid())
-  email       String @unique
+model newsletter {
+  id          String   @id @default(uuid())
+  email       String   @unique
   created_at  DateTime @default(now())
   updated_at  DateTime @updatedAt
 }
 
-model Customer{
-  id                        String @id @default(uuid())
+model Customer {
+  id                        String    @id @default(uuid())
   name                      String
-  email                     String @unique
+  email                     String    @unique
   password                  String
   profileImage              String?
-  phoneNumber               String? @unique
+  phoneNumber               String?   @unique
   otp                       String?
   confirmedEmail            Boolean?
-  order                      Order[]
+  orders                    Order[]   // Customer can have many orders
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }
 
-model Order{
-  id                        String @id @default(uuid())
-  user                      Customer @relation(fields: [customerId], references: [id])
+model Order {
+  id                        String     @id @default(uuid())
+  user                      Customer   @relation(fields: [customerId], references: [id])
   customerId                String
-
-  customerOrderInfo         CustomerOrder[]
-  created_at                DateTime  @default(now())
-  updated_at                DateTime? @updatedAt
+  items                     CartItem[] // Order can have many CartItems
+  created_at                DateTime   @default(now())
+  updated_at                DateTime?  @updatedAt
 }
 
-model CustomerOrder{
-  id                        String @id @default(uuid())
-  shoeSize                  String
-  units                     String
-  productsInfo              Product[]
-  order                     Order @relation(fields: [order_id], references: [id])
-  order_id                  String
-  created_at                DateTime @default(now())
-  updated_at                DateTime? @updatedAt
+model CartItem {
+  id             String    @id @default(uuid())
+  quantity       Int
+  size           String
+  product        Product   @relation(fields: [productId], references: [id]) // CartItem relates to Product
+  productId      String
+  order          Order     @relation(fields: [orderId], references: [id]) // CartItem belongs to an Order
+  orderId        String
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 }
 
-model Product{
-  id                        String @id @default(uuid())
+model Product {
+  id                        String    @id @default(uuid())
   name                      String
   description               String
   oldPrice                  String?
@@ -58,8 +58,7 @@ model Product{
   shoeSize                  String[]
   images                    String[]
   tag                       String[]
-  order                     CustomerOrder? @relation(fields: [customerOrder_Id], references: [id])
-  customerOrder_Id                   String?
+  cartItems                 CartItem[] // Product can be in multiple CartItems
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
 }

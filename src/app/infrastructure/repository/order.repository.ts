@@ -20,12 +20,12 @@ export default class OrderRepository {
           user: {
             connect: { id: customerId },
           },
-          customerOrderInfo: {
+          items: {
             create: productInfo.map((info) => {
               return {
-                shoeSize: info.size,
-                units: info.quantity.toString(),
-                productsInfo: {
+                size: info.size,
+                quantity: info.quantity,
+                product: {
                   connect: { id: info.product.id },
                 },
               };
@@ -33,9 +33,9 @@ export default class OrderRepository {
           },
         },
         include: {
-          customerOrderInfo: {
+          items: {
             include: {
-              productsInfo: true,
+              product: true,
             },
           },
         },
@@ -55,9 +55,9 @@ export default class OrderRepository {
       const orders = await db.order.findMany({
         where: { customerId: uid },
         include: {
-          customerOrderInfo: {
+          items: {
             include: {
-              productsInfo: true,
+              product: true,
             },
           },
         },
@@ -83,7 +83,7 @@ export default class OrderRepository {
       const order = await db.order.findFirst({
         where: { id: id },
         include: {
-          customerOrderInfo: true,
+          items: true,
           user: true,
         },
       });
