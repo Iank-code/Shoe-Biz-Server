@@ -22,4 +22,7 @@ export default class OrderUsecase {
   async getByTag(tag: any) {
     return await this.repository.getByTag(tag);
   }
+  async getAdminOrders(id: string, email: string) {
+    return await this.repository.getAdminOrders(id, email);
+  }
 }

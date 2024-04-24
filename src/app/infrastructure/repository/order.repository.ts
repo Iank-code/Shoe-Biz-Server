@@ -125,4 +125,32 @@ export default class OrderRepository {
       throw new Error("Error fetching products by tag");
     }
   }
+
+  async getAdminOrders(id: string, email: string) {
+    try {
+      const admin = await db.seller.findFirst({ where: { id, email } });
+
+      if (admin!.role !== "Seller") {
+        return {
+          status: 404,
+          message: "You are not authorized",
+        };
+      }
+      const orders = await db.order.findMany({
+        include: {
+          user: {
+            select: { name: true, email: true },
+          },
+          items: true,
+        },
+      });
+
+      return {
+        status: 200,
+        data: orders,
+      };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
 }

@@ -34,6 +34,7 @@ export default class ProductRepository {
           message: "No products found",
         };
       }
+      console.log(id);
       return {
         data: product,
       };
@@ -64,6 +65,34 @@ export default class ProductRepository {
     } catch (error) {
       Logger.error(error);
       throw new Error("Error fetching products by tag");
+    }
+  }
+
+  async deleteProduct(id: string, productId: string) {
+    try {
+      const admin = await db.seller.findFirst({
+        where: { id },
+      });
+
+      if (admin!.role !== "Seller") {
+        return {
+          status: 401,
+          message: "Unauthorized access",
+        };
+      }
+
+      await db.product.delete({
+        where: { id: productId },
+      });
+
+      return {
+        status: 201,
+        message: "Product Deleted successfully",
+      };
+    } catch (error) {
+      // Logger.error(error);
+      return { error };
+      // throw new Error("Error deleting product");
     }
   }
 }
