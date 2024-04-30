@@ -3619,3 +3619,91 @@
 [35m[39m
 2024-04-30 22:57:52:5752 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 6.812 ms[39m
 [35m[39m
+2024-04-30 23:00:27:027 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:00:27:027 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:00:39:039 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:00:39:039 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:00:10 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:00:10 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:04:14 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:04:14 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:13:113 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:13:113 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:20:120 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:20:120 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:35:135 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:35:135 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:42:142 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:42:142 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:51:151 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:51:151 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:01:59:159 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:01:59:159 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:02:26:226 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:02:26:226 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:02:36:236 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:02:36:236 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:03:02:32 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:03:02:32 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:03:05:35 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:03:05:35 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:03:33:333 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:03:33:333 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:03:46:346 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:03:46:346 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:03:59:359 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:03:59:359 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:03:43 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:03:43 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:19:419 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:19:419 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:23:423 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:23:423 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:29:429 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:29:429 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:48:448 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:48:448 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:04:56:456 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:04:56:456 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:05:02:52 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:05:02:52 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:05:22:522 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:05:22:522 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:05:39:539 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:05:39:539 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:06:07:67 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:06:07:67 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:07:03:73 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:07:03:73 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:07:12:712 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:07:12:712 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:07:34:734 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:07:34:734 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:08:01:81 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:08:01:81 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:08:14:814 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:08:14:814 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:08:22:822 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:08:22:822 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:08:29:829 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:08:29:829 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:09:00:90 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:09:00:90 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:09:09:99 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:09:09:99 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:09:34:934 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:09:34:934 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:09:50:950 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:09:50:950 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:09:56:956 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:09:56:956 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:10:06:106 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:10:06:106 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:10:11:1011 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:10:11:1011 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:10:20:1020 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:10:20:1020 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:10:30:1030 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:10:30:1030 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:10:53:1053 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:10:53:1053 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
