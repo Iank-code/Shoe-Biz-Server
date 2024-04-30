@@ -6,6 +6,7 @@ import OrderModule from "./modules/order.module";
 import customerModule from "./modules/customer.module";
 import sellerModule from "./modules/seller.module";
 import NewsLetterModule from "./modules/newsLetter.module";
+import analyticModule from "./modules/analytic.module";
 // import MpesaModule from "./modules/mpesa.module";
 
 export default class AppRouter {
@@ -25,5 +26,6 @@ export default class AppRouter {
     // this.router.use("/application", new ApplicationModule().router);
     this.router.use("/order", new OrderModule().router);
     // this.router.use("/email/getintouch", new GetInTouchModule().router);
+    this.router.use("/analytic", new analyticModule().router);
   }
 }

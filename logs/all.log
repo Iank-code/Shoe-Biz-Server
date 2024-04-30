@@ -3707,3 +3707,205 @@
 2024-04-30 23:10:30:1030 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
 2024-04-30 23:10:53:1053 [37mdebug[39m: [37mServer started[39m
 2024-04-30 23:10:53:1053 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:12:11:1211 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:12:11:1211 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:12:32:1232 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:12:32:1232 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:15:48:1548 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:15:48:1548 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:16:38:1638 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:16:38:1638 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:16:47:1647 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:16:47:1647 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:16:59:1659 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:16:59:1659 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:17:13:1713 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:17:13:1713 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:17:22:1722 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:17:22:1722 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:17:32:1732 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:17:32:1732 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:17:43:1743 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:17:43:1743 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:17:53:1753 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:17:53:1753 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:18:12:1812 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:18:12:1812 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:18:24:1824 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:18:24:1824 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:18:35:1835 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:18:35:1835 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:19:37:1937 [35mhttp[39m: [35mGET /api/v1/product/product/f7559050-8bfc-4f77-8216-48dbb60ab71c 304 - - 106.576 ms[39m
+[35m[39m
+2024-04-30 23:19:37:1937 [35mhttp[39m: [35mGET /api/v1/product/product/f7559050-8bfc-4f77-8216-48dbb60ab71c 304 - - 6.844 ms[39m
+[35m[39m
+2024-04-30 23:19:37:1937 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 10.230 ms[39m
+[35m[39m
+2024-04-30 23:19:37:1937 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 8.348 ms[39m
+[35m[39m
+2024-04-30 23:24:17:2417 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:24:17:2417 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:24:34:2434 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:24:34:2434 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:28:23:2823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 117.489 ms[39m
+[35m[39m
+2024-04-30 23:28:23:2823 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.438 ms[39m
+[35m[39m
+2024-04-30 23:28:24:2824 [35mhttp[39m: [35mGET /api/v1/analytic 404 154 - 2.985 ms[39m
+[35m[39m
+2024-04-30 23:28:24:2824 [35mhttp[39m: [35mGET /api/v1/analytic 404 154 - 1.096 ms[39m
+[35m[39m
+2024-04-30 23:28:53:2853 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 10.211 ms[39m
+[35m[39m
+2024-04-30 23:28:54:2854 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 17.325 ms[39m
+[35m[39m
+2024-04-30 23:28:54:2854 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 200 70 - 11.560 ms[39m
+[35m[39m
+2024-04-30 23:28:54:2854 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 12.077 ms[39m
+[35m[39m
+2024-04-30 23:32:17:3217 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 6.962 ms[39m
+[35m[39m
+2024-04-30 23:32:17:3217 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 8.978 ms[39m
+[35m[39m
+2024-04-30 23:32:18:3218 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.243 ms[39m
+[35m[39m
+2024-04-30 23:32:18:3218 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 10.322 ms[39m
+[35m[39m
+2024-04-30 23:32:22:3222 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.978 ms[39m
+[35m[39m
+2024-04-30 23:32:22:3222 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.395 ms[39m
+[35m[39m
+2024-04-30 23:32:26:3226 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.247 ms[39m
+[35m[39m
+2024-04-30 23:32:26:3226 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.296 ms[39m
+[35m[39m
+2024-04-30 23:32:28:3228 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.540 ms[39m
+[35m[39m
+2024-04-30 23:32:28:3228 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 6.243 ms[39m
+[35m[39m
+2024-04-30 23:32:28:3228 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.244 ms[39m
+[35m[39m
+2024-04-30 23:32:28:3228 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.933 ms[39m
+[35m[39m
+2024-04-30 23:32:29:3229 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.347 ms[39m
+[35m[39m
+2024-04-30 23:32:29:3229 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.800 ms[39m
+[35m[39m
+2024-04-30 23:32:29:3229 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.406 ms[39m
+[35m[39m
+2024-04-30 23:32:29:3229 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.546 ms[39m
+[35m[39m
+2024-04-30 23:32:32:3232 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 3.377 ms[39m
+[35m[39m
+2024-04-30 23:32:32:3232 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 3.431 ms[39m
+[35m[39m
+2024-04-30 23:32:34:3234 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 4.997 ms[39m
+[35m[39m
+2024-04-30 23:32:34:3234 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 6.482 ms[39m
+[35m[39m
+2024-04-30 23:32:35:3235 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.782 ms[39m
+[35m[39m
+2024-04-30 23:32:35:3235 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 6.276 ms[39m
+[35m[39m
+2024-04-30 23:33:25:3325 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:33:25:3325 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:33:41:3341 [37mdebug[39m: [37mServer started[39m
+2024-04-30 23:33:41:3341 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-04-30 23:33:44:3344 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 49.684 ms[39m
+[35m[39m
+2024-04-30 23:33:44:3344 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 5.029 ms[39m
+[35m[39m
+2024-04-30 23:33:45:3345 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 200 84 - 13.124 ms[39m
+[35m[39m
+2024-04-30 23:33:45:3345 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 8.785 ms[39m
+[35m[39m
+2024-04-30 23:35:24:3524 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 18.701 ms[39m
+[35m[39m
+2024-04-30 23:35:24:3524 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 13.610 ms[39m
+[35m[39m
+2024-04-30 23:35:38:3538 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 4.053 ms[39m
+[35m[39m
+2024-04-30 23:35:38:3538 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 5.804 ms[39m
+[35m[39m
+2024-04-30 23:35:42:3542 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 6.754 ms[39m
+[35m[39m
+2024-04-30 23:35:42:3542 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 7.855 ms[39m
+[35m[39m
+2024-04-30 23:35:45:3545 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.587 ms[39m
+[35m[39m
+2024-04-30 23:35:45:3545 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.345 ms[39m
+[35m[39m
+2024-04-30 23:36:19:3619 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 6.142 ms[39m
+[35m[39m
+2024-04-30 23:36:19:3619 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 10.854 ms[39m
+[35m[39m
+2024-04-30 23:36:20:3620 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.180 ms[39m
+[35m[39m
+2024-04-30 23:36:20:3620 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.501 ms[39m
+[35m[39m
+2024-04-30 23:36:22:3622 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 7.437 ms[39m
+[35m[39m
+2024-04-30 23:36:22:3622 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 10.413 ms[39m
+[35m[39m
+2024-04-30 23:36:23:3623 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.356 ms[39m
+[35m[39m
+2024-04-30 23:36:23:3623 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.394 ms[39m
+[35m[39m
+2024-04-30 23:36:25:3625 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.933 ms[39m
+[35m[39m
+2024-04-30 23:36:25:3625 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 8.356 ms[39m
+[35m[39m
+2024-04-30 23:36:36:3636 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 5.012 ms[39m
+[35m[39m
+2024-04-30 23:36:36:3636 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 7.512 ms[39m
+[35m[39m
+2024-04-30 23:36:42:3642 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 2.855 ms[39m
+[35m[39m
+2024-04-30 23:36:42:3642 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 2.947 ms[39m
+[35m[39m
+2024-04-30 23:36:46:3646 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.441 ms[39m
+[35m[39m
+2024-04-30 23:36:46:3646 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 8.145 ms[39m
+[35m[39m
+2024-04-30 23:39:24:3924 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.804 ms[39m
+[35m[39m
+2024-04-30 23:39:24:3924 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 7.879 ms[39m
+[35m[39m
+2024-04-30 23:40:40:4040 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 5.766 ms[39m
+[35m[39m
+2024-04-30 23:40:40:4040 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 8.610 ms[39m
+[35m[39m
+2024-04-30 23:40:46:4046 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.575 ms[39m
+[35m[39m
+2024-04-30 23:40:46:4046 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.393 ms[39m
+[35m[39m
+2024-04-30 23:40:53:4053 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 7.349 ms[39m
+[35m[39m
+2024-04-30 23:40:53:4053 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.562 ms[39m
+[35m[39m
+2024-04-30 23:41:01:411 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 439 - 93.140 ms[39m
+[35m[39m
+2024-04-30 23:41:01:411 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.357 ms[39m
+[35m[39m
+2024-04-30 23:41:01:411 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.645 ms[39m
+[35m[39m
+2024-04-30 23:41:06:416 [35mhttp[39m: [35mGET /api/v1/order/ 200 9403 - 4.772 ms[39m
+[35m[39m
+2024-04-30 23:41:06:416 [35mhttp[39m: [35mGET /api/v1/order/ 304 - - 4.858 ms[39m
+[35m[39m
+2024-04-30 23:41:24:4124 [35mhttp[39m: [35mGET /api/v1/customer/profile 200 271 - 3.402 ms[39m
+[35m[39m
+2024-04-30 23:41:24:4124 [35mhttp[39m: [35mGET /api/v1/customer/profile 304 - - 4.969 ms[39m
+[35m[39m
+2024-04-30 23:41:25:4125 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.908 ms[39m
+[35m[39m
+2024-04-30 23:41:26:4126 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 4.078 ms[39m
+[35m[39m
+2024-04-30 23:41:29:4129 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.692 ms[39m
+[35m[39m
+2024-04-30 23:41:29:4129 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.196 ms[39m
+[35m[39m
+2024-04-30 23:47:00:470 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 22.311 ms[39m
+[35m[39m
+2024-04-30 23:47:00:470 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.664 ms[39m
+[35m[39m
