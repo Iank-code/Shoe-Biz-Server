@@ -13,6 +13,7 @@ export default class ProductModule {
   }
 
   private config() {
+    this.router.post("/", authenticateRequest(), this.addShoe);
     this.router.get("/getall", this.getAll);
     this.router.get("/shop", this.getByTag);
     this.router.get("/product/:id", this.getById);
@@ -22,8 +23,24 @@ export default class ProductModule {
       this.deleteProduct
     );
   }
-  private async getAll(req: Request, res: Response) {
+  private async getAll(_: Request, res: Response) {
     const response = await usecase.getAll();
+    return res.send(response);
+  }
+
+  private async addShoe(req: any, res: Response) {
+    const { id } = req.user;
+
+    const { name, description, oldPrice, newPrice, imageUrl } = req.body;
+
+    const response = await usecase.addShoe(
+      id,
+      name,
+      description,
+      oldPrice,
+      newPrice,
+      imageUrl
+    );
     return res.send(response);
   }
 

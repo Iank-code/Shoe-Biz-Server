@@ -8,8 +8,24 @@ export default class ProductUsecase {
   }
 
   async getAll() {
-    
     return await this.repository.getAll();
+  }
+  async addShoe(
+    id: string,
+    name: string,
+    description: string,
+    oldPrice: string,
+    newPrice: string,
+    imageUrl: string
+  ) {
+    return await this.repository.addShoe(
+      id,
+      name,
+      description,
+      oldPrice,
+      newPrice,
+      imageUrl
+    );
   }
 
   async deleteProduct(id: string, productId: string) {

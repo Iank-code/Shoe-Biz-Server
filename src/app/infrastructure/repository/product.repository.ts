@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import Logger from "../../application/middleware/loggers/logger";
 import { db } from "../services/database/client/db.client";
 
@@ -6,7 +7,7 @@ export default class ProductRepository {
 
   async getAll() {
     try {
-      const allProducts = await db.product.findMany();
+      const allProducts = (await db.product.findMany()).reverse();
 
       if (!allProducts) {
         return {
@@ -17,6 +18,62 @@ export default class ProductRepository {
 
       return {
         data: allProducts,
+      };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
+
+  async addShoe(
+    id: string,
+    name: string,
+    description: string,
+    oldPrice: string,
+    newPrice: string,
+    imageUrl: string
+  ) {
+    try {
+      const admin = await db.seller.findFirst({
+        where: { id },
+      });
+
+      if (admin!.role !== "Seller") {
+        return {
+          status: 401,
+          message: "Unauthorized access",
+        };
+      }
+
+      const shoeSize: string[] = [
+        "45",
+        "44",
+        "43",
+        "42",
+        "41",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+      ];
+
+      const tag: string[] = ["Hottest", "New", "Men", "Women", "Kids"];
+
+      await db.product.create({
+        data: {
+          name,
+          description,
+          oldPrice,
+          newPrice,
+          images: [imageUrl],
+          tag,
+          shoeSize,
+        },
+      });
+
+      return {
+        status: 201,
+        message: `${name} created successfully`,
       };
     } catch (error) {
       Logger.error(error);
