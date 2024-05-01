@@ -3909,3 +3909,19 @@
 [35m[39m
 2024-04-30 23:47:00:470 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.664 ms[39m
 [35m[39m
+2024-05-01 00:52:05:525 [37mdebug[39m: [37mServer started[39m
+2024-05-01 00:52:05:525 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:5000 [39m
+2024-05-01 15:21:11:2111 [35mhttp[39m: [35mPOST /api/v1/seller/login 200 470 - 212.272 ms[39m
+[35m[39m
+2024-05-01 15:21:15:2115 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 3.969 ms[39m
+[35m[39m
+2024-05-01 15:21:15:2115 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 2.904 ms[39m
+[35m[39m
+2024-05-01 15:21:16:2116 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 13.013 ms[39m
+[35m[39m
+2024-05-01 15:21:16:2116 [35mhttp[39m: [35mGET /api/v1/analytic/users-orders 304 - - 11.454 ms[39m
+[35m[39m
+2024-05-01 15:21:23:2123 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 8.572 ms[39m
+[35m[39m
+2024-05-01 15:21:23:2123 [35mhttp[39m: [35mGET /api/v1/order/all/admin 304 - - 8.311 ms[39m
+[35m[39m

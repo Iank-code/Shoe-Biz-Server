@@ -46,7 +46,9 @@ model Order {
   id                        String     @id @default(uuid())
   user                      Customer   @relation(fields: [customerId], references: [id])
   customerId                String
-  items                     CartItem[] // Order can have many CartItems
+  items                     CartItem[]
+  // For order status, we should have "pending,"
+  status                    String @default("Pending")
   created_at                DateTime   @default(now())
   updated_at                DateTime?  @updatedAt
 }
