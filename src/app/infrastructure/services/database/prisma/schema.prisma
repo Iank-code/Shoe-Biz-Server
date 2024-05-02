@@ -28,11 +28,27 @@ model Customer {
   updated_at                DateTime? @updatedAt
 }
 
+model Seller {
+  id                        String    @id @default(uuid())
+  name                      String
+  email                     String    @unique
+  password                  String
+  profileImage              String?
+  phoneNumber               String?   @unique
+  otp                       String?
+  confirmedEmail            Boolean?
+  role                      String @default("Seller")
+  created_at                DateTime  @default(now())
+  updated_at                DateTime? @updatedAt
+}
+
 model Order {
   id                        String     @id @default(uuid())
   user                      Customer   @relation(fields: [customerId], references: [id])
   customerId                String
-  items                     CartItem[] // Order can have many CartItems
+  items                     CartItem[]
+  // For order status, we should have "pending,"
+  status                    String @default("Pending")
   created_at                DateTime   @default(now())
   updated_at                DateTime?  @updatedAt
 }

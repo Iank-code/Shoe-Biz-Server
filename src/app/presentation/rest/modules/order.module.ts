@@ -14,15 +14,14 @@ export default class OrderModule {
   }
 
   private config() {
-    this.router.post("/create",authenticateRequest(), this.createOrder);
+    this.router.post("/create", authenticateRequest(), this.createOrder);
     this.router.get("/", authenticateRequest(), this.getOrders);
     this.router.get("/shop", this.getByTag);
     this.router.get("/:id", this.getOrderById);
+    this.router.get("/all/admin/", authenticateRequest(), this.getAdminOrders);
   }
   private async createOrder(req: any, res: Response) {
-    const {
-      productsInfo,
-    }: {productsInfo: orderType[] } = req.body;
+    const { productsInfo }: { productsInfo: orderType[] } = req.body;
     const { id } = req.user;
     const response = await usecase.createOrder(id, productsInfo);
     return res.send(response);
@@ -40,8 +39,13 @@ export default class OrderModule {
 
   private async getByTag(req: Request, res: Response) {
     const { tag } = req.query;
-    console.log(tag);
     const response = await usecase.getByTag(tag);
+    return res.send(response);
+  }
+
+  private async getAdminOrders(req: any, res: Response) {
+    const { id, email } = req.user;
+    const response = await usecase.getAdminOrders(id, email);
     return res.send(response);
   }
 }
