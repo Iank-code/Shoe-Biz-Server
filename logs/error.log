@@ -29,3 +29,12 @@
 [31m→ 34 const customer = await db.seller.create([39m
 [31mUnique constraint failed on the fields: (`email`)[39m
 2024-04-23 22:11:27:1127 [31merror[39m: [31mgetaddrinfo EAI_AGAIN smtp.gmail.com[39m
+2024-05-01 19:50:02:502 [31merror[39m: [31m[39m
+[31mInvalid `db.seller.create()` invocation in[39m
+[31m/home/mose/Videos/videos/Shoe biz/shoe_biz_server/src/app/infrastructure/repository/seller.repository.ts:34:40[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.seller.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
