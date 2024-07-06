@@ -36,12 +36,12 @@ export default class MpesaRepository {
             // Password: password,
             // Timestamp: timestamp,
             // TransactionType: "CustomerPayBillOnline",
-            // Amount: payload.amount,
-            // PartyA: `254${payload.phoneNumber}`,
+            // Amount: "1", //payload.amount
+            // PartyA: "254704412004",
             // PartyB: shortcode,
-            // PhoneNumber: `254742453610`,
+            // PhoneNumber: `254${payload.phoneNumber}`,
             // CallBackURL: "https://mydomain.com/pat",
-            // AccountReference: `254${payload.phoneNumber}`,
+            // AccountReference: "254704412004",
             // TransactionDesc: "This is just a test transaction",
             // },
             Initiator: "testapi",
@@ -51,9 +51,11 @@ export default class MpesaRepository {
             SenderIdentifierType: "4",
             RecieverIdentifierType: 4,
             Amount: 239,
-            PartyA: process.env.PARTY_A,
-            PartyB: process.env.PARTY_B,
-            AccountReference: process.env.BANK_ACC, //bank account nummber
+            // PartyA: process.env.PARTY_A,
+            // PartyB: process.env.PARTY_B,
+            PartyA: "254704412004",
+            PartyB: shortcode,
+            AccountReference: "0704412004",//process.env.BANK_ACC, //bank account nummber
             Requester: 254704412004,
             Remarks: "Testing this paybill api",
             QueueTimeOutURL: "https://mydomain.com/b2b/queue/",
@@ -66,6 +68,7 @@ export default class MpesaRepository {
           }
         )
         .then((data) => {
+          console.log(data);
           return {
             status: 201,
             data: data,

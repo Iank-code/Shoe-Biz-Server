@@ -38,3 +38,8 @@
 [31m  33 [39m
 [31m→ 34 const customer = await db.seller.create([39m
 [31mUnique constraint failed on the fields: (`email`)[39m
+2024-05-11 19:18:22:1822 [31merror[39m: [31mread ECONNRESET[39m
+2024-05-12 13:26:52:2652 [31merror[39m: [31mRequest failed with status code 400[39m
+2024-05-12 13:27:09:279 [31merror[39m: [31mRequest failed with status code 400[39m
+2024-05-12 13:28:14:2814 [31merror[39m: [31mRequest failed with status code 400[39m
+2024-05-12 13:32:35:3235 [31merror[39m: [31mRequest failed with status code 400[39m
