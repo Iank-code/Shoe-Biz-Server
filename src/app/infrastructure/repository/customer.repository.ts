@@ -88,6 +88,7 @@ export default class CustomerRepository {
       if (!passwordMatch) {
         return notFound;
       }
+      console.log("password: " + passwordMatch )
 
       const accessToken = jwt.sign(
         {

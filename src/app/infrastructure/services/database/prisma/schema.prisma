@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://ian:mose@123@localhost/shoebiz"
+  url      = "postgres://giga:giga@localhost/shoebiz"
 }
 
 model newsletter {

@@ -43,3 +43,33 @@
 2024-05-12 13:27:09:279 [31merror[39m: [31mRequest failed with status code 400[39m
 2024-05-12 13:28:14:2814 [31merror[39m: [31mRequest failed with status code 400[39m
 2024-05-12 13:32:35:3235 [31merror[39m: [31mRequest failed with status code 400[39m
+2024-07-08 20:59:24:5924 [31merror[39m: [31mMissing credentials for "PLAIN"[39m
+2024-07-08 20:59:29:5929 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/giga/Desktop/Open Source/shoe-biz/Shoe-Biz-Server/src/app/infrastructure/repository/customer.repository.ts:34:42[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
+2024-07-08 21:03:33:333 [31merror[39m: [31msecretOrPrivateKey must have a value[39m
+2024-07-08 21:03:40:340 [31merror[39m: [31msecretOrPrivateKey must have a value[39m
+2024-07-08 21:10:14:1014 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/giga/Desktop/Open Source/shoe-biz/Shoe-Biz-Server/src/app/infrastructure/repository/customer.repository.ts:34:42[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
+2024-07-08 22:25:36:2536 [31merror[39m: [31m[39m
+[31mInvalid `db.customer.create()` invocation in[39m
+[31m/home/giga/Desktop/Open Source/shoe-biz/Shoe-Biz-Server/src/app/infrastructure/repository/customer.repository.ts:34:42[39m
+
+[31m  31 const salt = await bcrypt.genSalt(10);[39m
+[31m  32 const hashed = bcrypt.hashSync(payload.password, salt);[39m
+[31m  33 [39m
+[31m→ 34 const customer = await db.customer.create([39m
+[31mUnique constraint failed on the fields: (`email`)[39m
