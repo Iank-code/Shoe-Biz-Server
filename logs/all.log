@@ -4800,3 +4800,43 @@
 [35m[39m
 2024-10-30 01:32:18:3218 [35mhttp[39m: [35mGET /api/v1/product/getall 200 6645 - 623.066 ms[39m
 [35m[39m
+2024-10-30 01:32:32:3232 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 47.663 ms[39m
+[35m[39m
+2024-10-30 01:32:32:3232 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 16.966 ms[39m
+[35m[39m
+2024-10-30 01:33:31:3331 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 11.668 ms[39m
+[35m[39m
+2024-10-30 01:33:31:3331 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 9.905 ms[39m
+[35m[39m
+2024-10-30 01:33:42:3342 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 15.546 ms[39m
+[35m[39m
+2024-10-30 01:33:42:3342 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 33.114 ms[39m
+[35m[39m
+2024-10-30 01:38:13:3813 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 13.947 ms[39m
+[35m[39m
+2024-10-30 01:38:13:3813 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 11.735 ms[39m
+[35m[39m
+2024-10-30 01:40:52:4052 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 14.822 ms[39m
+[35m[39m
+2024-10-30 01:40:53:4053 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 10.353 ms[39m
+[35m[39m
+2024-10-30 01:47:12:4712 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 282.367 ms[39m
+[35m[39m
+2024-10-30 01:47:12:4712 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 11.548 ms[39m
+[35m[39m
+2024-10-30 01:48:26:4826 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 10.531 ms[39m
+[35m[39m
+2024-10-30 01:48:26:4826 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 11.455 ms[39m
+[35m[39m
+2024-10-30 01:49:36:4936 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 10.830 ms[39m
+[35m[39m
+2024-10-30 01:49:36:4936 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 200 2827 - 11.553 ms[39m
+[35m[39m
+2024-10-30 01:51:11:5111 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 11.232 ms[39m
+[35m[39m
+2024-10-30 01:51:11:5111 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 11.531 ms[39m
+[35m[39m
+2024-10-30 01:53:49:5349 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 11.071 ms[39m
+[35m[39m
+2024-10-30 01:53:49:5349 [35mhttp[39m: [35mGET /api/v1/product/product/72e63f52-f886-4461-ba1e-5c529968cf2d 304 - - 274.450 ms[39m
+[35m[39m
