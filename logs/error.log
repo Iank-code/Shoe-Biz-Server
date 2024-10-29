@@ -73,3 +73,12 @@
 [31m  33 [39m
 [31m→ 34 const customer = await db.customer.create([39m
 [31mUnique constraint failed on the fields: (`email`)[39m
+2024-10-30 00:20:47:2047 [31merror[39m: [31m[39m
+[31mInvalid `db.product.create()` invocation in[39m
+[31m/home/giga/Desktop/Open Source/shoe-biz/Shoe-Biz-Server/src/app/infrastructure/services/database/seeders/product.seeder.ts:43:40[39m
+
+[31m  40 try {[39m
+[31m  41   for (let i = 0; i < 10; i++) {[39m
+[31m  42     // Create product with its tags[39m
+[31m→ 43     const product = await db.product.create([39m
+[31mThe table `public.Tag` does not exist in the current database.[39m

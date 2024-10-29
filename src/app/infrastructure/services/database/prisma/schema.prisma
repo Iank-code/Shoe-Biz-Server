@@ -12,6 +12,7 @@ model newsletter {
   email       String   @unique
   created_at  DateTime @default(now())
   updated_at  DateTime @updatedAt
+
 }
 
 model Customer {
@@ -26,6 +27,7 @@ model Customer {
   orders                    Order[]   // Customer can have many orders
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
+
 }
 
 model Seller {
@@ -40,6 +42,7 @@ model Seller {
   role                      String @default("Seller")
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
+
 }
 
 model Order {
@@ -47,7 +50,6 @@ model Order {
   user                      Customer   @relation(fields: [customerId], references: [id])
   customerId                String
   items                     CartItem[]
-  // For order status, we should have "pending,"
   status                    String @default("Pending")
   created_at                DateTime   @default(now())
   updated_at                DateTime?  @updatedAt
@@ -63,6 +65,7 @@ model CartItem {
   orderId        String
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
+
 }
 
 model Product {
@@ -75,6 +78,41 @@ model Product {
   images                    String[]
   tag                       String[]
   cartItems                 CartItem[] // Product can be in multiple CartItems
+  colorVariants             ColorVariant[] // Product has multiple color variants
+  sizeVariants              SizeVariant[]  // Product has multiple size variants
+  tags                      Tag[]  @relation("ProductTags")
   created_at                DateTime  @default(now())
   updated_at                DateTime? @updatedAt
+
+  @@index([name, description])
+}
+
+model Tag {
+  id            String     @id @default(uuid())
+  name          String     @unique
+  products      Product[]  @relation("ProductTags")
+  created_at    DateTime   @default(now())
+  updated_at    DateTime?  @updatedAt
+
+  @@index([name])
+}
+
+// Models for variants
+model ColorVariant {
+  id             String     @id @default(uuid())
+  color          String
+  price          String 
+  product        Product    @relation(fields: [productId], references: [id])
+  productId      String
+  created_at     DateTime   @default(now())
+  updated_at     DateTime?  @updatedAt
+}
+
+model SizeVariant {
+  id             String     @id @default(uuid())
+  size           String 
+  product        Product    @relation(fields: [productId], references: [id])
+  productId      String
+  created_at     DateTime   @default(now())
+  updated_at     DateTime?  @updatedAt
 }
