@@ -82,3 +82,31 @@
 [31m  42     // Create product with its tags[39m
 [31m→ 43     const product = await db.product.create([39m
 [31mThe table `public.Tag` does not exist in the current database.[39m
+2024-10-30 01:07:17:717 [31merror[39m: [31m[39m
+[31mInvalid `db.product.findMany()` invocation in[39m
+[31m/home/giga/Desktop/Open Source/shoe-biz/Shoe-Biz-Server/src/app/infrastructure/repository/product.repository.ts:10:44[39m
+
+[31m   7 [39m
+[31m   8 async getAll() {[39m
+[31m   9   try {[39m
+[31m→ 10     const allProducts = await db.product.findMany({[39m
+[31m           select: {[39m
+[31m         ?   id?: true,[39m
+[31m         ?   name?: true,[39m
+[31m         ?   description?: true,[39m
+[31m         ?   oldPrice?: true,[39m
+[31m         ?   newPrice?: true,[39m
+[31m         ?   shoeSize?: true,[39m
+[31m         ?   images?: true,[39m
+[31m         ?   tag?: true,[39m
+[31m         ?   created_at?: true,[39m
+[31m         ?   updated_at?: true,[39m
+[31m         ?   cartItems?: true,[39m
+[31m         ?   colorVariants?: true,[39m
+[31m         ?   sizeVariants?: true,[39m
+[31m         ?   tags?: true,[39m
+[31m         ?   _count?: true[39m
+[31m           }[39m
+[31m         })[39m
+
+[31mThe `select` statement for type Product needs at least one truthy value.[39m

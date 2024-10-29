@@ -7,13 +7,7 @@ export default class ProductRepository {
 
   async getAll() {
     try {
-      const allProducts = await db.product.findMany({
-        include: {
-          colorVariants: true,
-          sizeVariants: true,
-          tags: true,
-        },
-      });
+      const allProducts = await db.product.findMany({});
 
       if (!allProducts || allProducts.length === 0) {
         return {
@@ -94,6 +88,17 @@ export default class ProductRepository {
     try {
       const product = await db.product.findFirst({
         where: { id: id },
+        include: {
+          colorVariants: {
+            select: {
+              color: true,
+              price: true,
+              image: true,
+            }
+          },
+          sizeVariants: true,
+          tags: true,
+        },
       });
       if (!product) {
         return {
