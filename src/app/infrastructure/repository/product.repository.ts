@@ -7,9 +7,15 @@ export default class ProductRepository {
 
   async getAll() {
     try {
-      const allProducts = (await db.product.findMany()).reverse();
+      const allProducts = await db.product.findMany({
+        include: {
+          colorVariants: true,
+          sizeVariants: true,
+          tags: true,
+        },
+      });
 
-      if (!allProducts) {
+      if (!allProducts || allProducts.length === 0) {
         return {
           status: 404,
           message: "No products found",
@@ -17,10 +23,14 @@ export default class ProductRepository {
       }
 
       return {
-        data: allProducts,
+        data: allProducts.reverse(),
       };
     } catch (error) {
       Logger.error(error);
+      return {
+        status: 500,
+        message: "An error occurred while fetching products.",
+      };
     }
   }
 
