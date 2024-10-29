@@ -4722,3 +4722,7 @@
 2024-10-30 00:32:39:3239 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:4000 [39m
 2024-10-30 00:32:45:3245 [35mhttp[39m: [35mGET /api/v1/product/getall 200 33721 - 969.018 ms[39m
 [35m[39m
+2024-10-30 00:57:11:5711 [32minfo[39m: [32mProducts seeded successfully![39m
+2024-10-30 00:57:11:5711 [32minfo[39m: [32mAll seeders have been run successfully[39m
+2024-10-30 00:58:10:5810 [37mdebug[39m: [37mServer started[39m
+2024-10-30 00:58:10:5810 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:4000 [39m

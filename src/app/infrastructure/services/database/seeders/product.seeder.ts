@@ -49,6 +49,7 @@ const productSeeder = async () => {
         await db.colorVariant.create({
           data: {
             color,
+            image: faker.image.url(),
             price: faker.commerce.price({ min: 1500, max: 4000, dec: 0 }),
             productId: product.id,
           },
