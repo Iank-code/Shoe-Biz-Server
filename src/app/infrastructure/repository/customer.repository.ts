@@ -21,7 +21,6 @@ export default class CustomerRepository {
   async registerCustomer(payload: any) {
     try {
       if (payload.password !== payload.password_confirmation) {
-        console.log(payload)
         return {
           status: 422,
           message: "Password do not match",
@@ -88,7 +87,7 @@ export default class CustomerRepository {
       if (!passwordMatch) {
         return notFound;
       }
-      console.log("password: " + passwordMatch )
+      console.log("password: " + passwordMatch);
 
       const accessToken = jwt.sign(
         {
@@ -98,7 +97,7 @@ export default class CustomerRepository {
         { expiresIn: "12h" }
       );
 
-      const { password, otp, confirmedEmail, id, ...others } = user;
+      const { password, otp, emailConfirmedAt, id, ...others } = user;
 
       return {
         status: 200,
@@ -126,7 +125,7 @@ export default class CustomerRepository {
         };
       }
 
-      const { password, otp, confirmedEmail, ...others } = user;
+      const { password, otp, emailConfirmedAt, ...others } = user;
 
       return {
         user: others,
@@ -166,6 +165,28 @@ export default class CustomerRepository {
         status: 200,
         user: update,
       };
+    } catch (error) {
+      Logger.error(error);
+    }
+  }
+
+  async logoutUser(token: string) {
+    try {
+      const existingToken = await db.blacklistedToken.findUnique({
+        where: { token },
+      });
+
+      if (existingToken) {
+        return { message: "User is already logged out." };
+      }
+
+      await db.blacklistedToken.create({
+        data: {
+          token,
+        },
+      });
+
+      return { status: 200, message: "User logged out successfully." };
     } catch (error) {
       Logger.error(error);
     }

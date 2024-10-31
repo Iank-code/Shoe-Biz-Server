@@ -98,7 +98,7 @@ export default class sellerRepository {
         { expiresIn: "12h" }
       );
 
-      const { password, otp, confirmedEmail, id, ...others } = user;
+      const { password, otp, emailConfirmedAt, id, ...others } = user;
 
       return {
         status: 200,
@@ -131,7 +131,7 @@ export default class sellerRepository {
         };
       }
 
-      const { password, otp, confirmedEmail, ...others } = user;
+      const { password, otp, emailConfirmedAt, ...others } = user;
 
       return {
         user: others,

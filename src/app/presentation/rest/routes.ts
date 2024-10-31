@@ -16,6 +16,12 @@ export default class AppRouter {
   }
 
   private config() {
+    /**
+     * Todo
+     *  1. Fix pending tasks for mpesa C2B
+     *  2. Work on mpesa C2C for vendors/sellors
+     *  3. Integrate airtel money, Paypall and Bank transaction for C2B
+     */
     this.router.use("/product", new ProductModule().router);
     this.router.use("/customer", new customerModule().router);
     this.router.use("/seller", new sellerModule().router);

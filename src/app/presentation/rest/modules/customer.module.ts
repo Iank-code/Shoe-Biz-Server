@@ -21,6 +21,7 @@ export default class CustomerModule {
       authenticateRequest(),
       this.updateCustomer
     );
+    this.router.post("/logout", authenticateRequest(), this.logoutUser);
   }
 
   private async registerCustomer(req: Request, res: Response) {
@@ -50,5 +51,12 @@ export default class CustomerModule {
     const response = await usecase.updateCustomer(id, payload);
 
     return res.send(response);
+  }
+
+  private async logoutUser(req: any, res: Response) {
+    const { token } = req.user
+    const response = await usecase.logoutUser(token)
+
+    return res.send(response)
   }
 }

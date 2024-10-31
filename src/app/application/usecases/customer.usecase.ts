@@ -20,4 +20,8 @@ export default class CustomerUsecase {
   async updateCustomer(id: string, payload: any) {
     return await this.repository.updateCustomer(id, payload);
   }
+
+  async logoutUser(token: string) {
+    return await this.repository.logoutUser(token);
+  }
 }
