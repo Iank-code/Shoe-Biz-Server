@@ -62,7 +62,6 @@ export default class CustomerRepository {
         status: 200,
         message:
           "Account has been created successfully. A verification email has been sent to your email address.",
-        customer,
       };
     } catch (error) {
       Logger.error(error);
@@ -87,7 +86,6 @@ export default class CustomerRepository {
       if (!passwordMatch) {
         return notFound;
       }
-      console.log("password: " + passwordMatch);
 
       const accessToken = jwt.sign(
         {
@@ -158,8 +156,6 @@ export default class CustomerRepository {
         where: { id: id },
         data: { name, phoneNumber, password: hashed },
       });
-
-      console.log(update);
 
       return {
         status: 200,

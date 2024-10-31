@@ -4876,3 +4876,38 @@
 [35m[39m
 2024-10-31 22:59:51:5951 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 72 - 52.985 ms[39m
 [35m[39m
+2024-10-31 23:03:58:358 [32minfo[39m: [32mMessage sent: %s[39m
+2024-10-31 23:03:58:358 [35mhttp[39m: [35mPOST /api/v1/customer/register 200 458 - 4179.589 ms[39m
+[35m[39m
+2024-10-31 23:04:30:430 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 405.594 ms[39m
+[35m[39m
+2024-10-31 23:05:16:516 [37mdebug[39m: [37mServer started[39m
+2024-10-31 23:05:16:516 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:4000 [39m
+2024-10-31 23:05:54:554 [37mdebug[39m: [37mServer started[39m
+2024-10-31 23:05:54:554 [32minfo[39m: [32mRunning on 👉🏼 http://localhost:4000 [39m
+2024-10-31 23:06:07:67 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 2787.697 ms[39m
+[35m[39m
+2024-10-31 23:06:13:613 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 594.666 ms[39m
+[35m[39m
+2024-10-31 23:06:16:616 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 597.894 ms[39m
+[35m[39m
+2024-10-31 23:06:29:629 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 439.419 ms[39m
+[35m[39m
+2024-10-31 23:06:30:630 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 276.128 ms[39m
+[35m[39m
+2024-10-31 23:06:31:631 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 279.527 ms[39m
+[35m[39m
+2024-10-31 23:06:33:633 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 278.026 ms[39m
+[35m[39m
+2024-10-31 23:06:34:634 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 283.769 ms[39m
+[35m[39m
+2024-10-31 23:07:38:738 [35mhttp[39m: [35mPOST /api/v1/customer/login 200 435 - 407.046 ms[39m
+[35m[39m
+2024-10-31 23:07:41:741 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 54.472 ms[39m
+[35m[39m
+2024-10-31 23:07:41:741 [35mhttp[39m: [35mGET /api/v1/product/getall 304 - - 9.996 ms[39m
+[35m[39m
+2024-10-31 23:07:52:752 [35mhttp[39m: [35mGET /api/v1/product/product/f5b13577-499e-47fe-982e-ab9e9fba80b3 200 2817 - 140.731 ms[39m
+[35m[39m
+2024-10-31 23:07:53:753 [35mhttp[39m: [35mGET /api/v1/product/product/f5b13577-499e-47fe-982e-ab9e9fba80b3 200 2817 - 408.258 ms[39m
+[35m[39m
